@@ -1,0 +1,12 @@
+﻿bo,f,rbo
+Worker,Business Title,
+Worker,Position Worker Type,Position Worker Type
+Worker,Supervisory Organization - Organization Top -> Organization,Supervisory Organization
+Candidate,National Identifier,National Identifier Interface
+Candidate,Pending Candidate Home Task,
+Candidate,Candidate Communications,Candidate Communication
+Candidate,Candidate Global Name,Global Name Interface
+External or Internal Candidate,Added By Originator,Worker
+External or Internal Candidate,Candidate,External or Internal Candidate
+External or Internal Candidate,Candidate Manager,Worker
+External or Internal Candidate,Candidate Worker Type,Worker Type
