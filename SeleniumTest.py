@@ -38,15 +38,12 @@ def BODetails(bo):
     action.click(on_element = boDetails)
     action.send_keys(bo)
     action.send_keys(Keys.ENTER)
-    action.pause(3)
-    action.send_keys(Keys.ENTER)
-    action.perform()
 
     
 
 def submit():
     driver.implicitly_wait(10)
-    submit = driver.find_element(By.XPATH, "//div[@class = 'WE-N WN5I WK1I']")
+    submit = driver.find_element(By.XPATH, "//div[@class = 'WM-N WEAJ WB2I']")
     action = ActionChains(driver)
     action.click(on_element = submit)
     action.perform()
