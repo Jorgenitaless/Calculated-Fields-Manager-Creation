@@ -113,20 +113,27 @@ try:
                 ft.guardarRBO(driver, related)
             except (TimeoutException,NoSuchElementException,ElementClickInterceptedException,ElementNotInteractableException):
                 print("Salta excepcion de busqueda de BO guardarRBO")
-                ft.cancel(driver)
-                close = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//span[@class= 'css-9gpxd9']")))
+                
+                cancel = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']")))
+                #cancel = driver.find_element(By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']")
                 action = ActionChains(driver)
+                action.click(on_element = cancel)
+                action.perform()
+                cancel.click()
+                
+                close = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//span[@class= 'css-9gpxd9']")))
                 action.click(on_element = close)
                 action.perform() 
+                
                 tareaBO = "bo:" + df.iloc[counter, 0]
-                busquedaGlobal = driver.find_element(By.XPATH, "//input[@data-automation-id='globalSearchInput']")
-                action = ActionChains(driver)
+                
+                busquedaGlobal = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, "//input[@data-automation-id='globalSearchInput']"))).clear()
                 action.click(on_element = busquedaGlobal)
                 action.send_keys(tareaBO)
                 action.send_keys(Keys.RETURN)
                 action.perform()
                     
-                task = driver.find_element(By.XPATH, "//a[text()='"+df.iloc[counter, 0]+"']")
+                task = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, "//a[text()='"+df.iloc[counter, 0]+"']")))
                 task.click()
                 ft.guardarRBO(driver, related)
                     
