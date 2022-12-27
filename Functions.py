@@ -7,6 +7,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import matplotlib.pyplot as plt
 import networkx as nx
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 #################### Selenium functions
@@ -28,48 +30,60 @@ def login(driver):
     login.click()
     
 def search(tarea, driver):
-    busquedaGlobal = driver.find_element(By.XPATH, "//input[@data-automation-id='globalSearchInput']")
+    busquedaGlobal = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "//input[@data-automation-id='globalSearchInput']"))
+    )
+    #busquedaGlobal = driver.find_element(By.XPATH, "//input[@data-automation-id='globalSearchInput']")
     action = ActionChains(driver)
     action.click(on_element = busquedaGlobal)
     action.send_keys(tarea)
+    driver.implicitly_wait(10)
     action.send_keys(Keys.RETURN)
     action.perform()
-    
-    driver.implicitly_wait(20)
-    
-    task = driver.find_element(By.XPATH, "//a[text()='"+tarea+"']")
+    task = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "//a[text()='"+tarea+"']"))
+    )
+    #task = driver.find_element(By.XPATH, "//a[text()='"+tarea+"']")
     task.click()
     
 def BODetails(bo, driver):
-    busquedaBO = driver.find_element(By.XPATH, "//div[@data-automation-id='responsiveMonikerInput']")
+    busquedaBO = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "//div[@data-automation-id='responsiveMonikerInput']"))
+    )
+    #busquedaBO = driver.find_element(By.XPATH, "//div[@data-automation-id='responsiveMonikerInput']")
     action = ActionChains(driver)
     action.click(on_element = busquedaBO)
     action.send_keys(bo)
+    driver.implicitly_wait(10)
     action.send_keys(Keys.ENTER)
     action.perform()
 
 
 def close(driver):
-    driver.implicitly_wait(10)
-    close = driver.find_element(By.XPATH, "//button[@data-automation-id = 'searchInputClearTextIcon']")
-    action = ActionChains(driver)
-    action.click(on_element = close)
-    action.perform() 
-    driver.implicitly_wait(10)
+    close = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "//button[@data-automation-id = 'searchInputClearTextIcon']"))
+    ).click()
+    #close = driver.find_element(By.XPATH, "//button[@data-automation-id = 'searchInputClearTextIcon']")
+    #action = ActionChains(driver)
+    #action.click(on_element = close)
+    #action.perform() 
     
-    
-
-
 
 def submit(driver):
-    OkButton = driver.find_element(By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WAIN']")
+    OkButton = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WAIN']"))
+    )
+    #OkButton = driver.find_element(By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WAIN']")
     action = ActionChains(driver)
     action.click(on_element = OkButton)
     action.perform()
     OkButton.click()
     
 def cancel(driver):
-    cancel = driver.find_element(By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']")
+    cancel = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']"))
+    )
+    #cancel = driver.find_element(By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']")
     action = ActionChains(driver)
     action.click(on_element = cancel)
     action.perform()
@@ -77,6 +91,9 @@ def cancel(driver):
 
 
 def guardarRBO(driver, classBO):
+    element = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, "//tr/td[5]"))
+    )
     campos = driver.find_elements(By.XPATH, "//tr/td[5]")
     for campo in campos:
         classBO.append(campo.text)
