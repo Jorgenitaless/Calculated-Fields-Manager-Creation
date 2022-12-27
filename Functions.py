@@ -31,7 +31,7 @@ def login(driver):
     
 def search(tarea, driver):
     busquedaGlobal = WebDriverWait(driver, 30).until(
-        EC.presence_of_element_located((By.XPATH, "//input[@data-automation-id='globalSearchInput']"))
+        EC.visibility_of_element_located((By.XPATH, "//input[@data-automation-id='globalSearchInput']"))
     )
     #busquedaGlobal = driver.find_element(By.XPATH, "//input[@data-automation-id='globalSearchInput']")
     action = ActionChains(driver)
@@ -41,14 +41,14 @@ def search(tarea, driver):
     action.send_keys(Keys.RETURN)
     action.perform()
     task = WebDriverWait(driver, 30).until(
-        EC.presence_of_element_located((By.XPATH, "//a[text()='"+tarea+"']"))
+        EC.visibility_of_element_located((By.XPATH, "//a[text()='"+tarea+"']"))
     )
     #task = driver.find_element(By.XPATH, "//a[text()='"+tarea+"']")
     task.click()
     
 def BODetails(bo, driver):
     busquedaBO = WebDriverWait(driver, 30).until(
-        EC.presence_of_element_located((By.XPATH, "//div[@data-automation-id='responsiveMonikerInput']"))
+        EC.visibility_of_element_located((By.XPATH, "//div[@data-automation-id='responsiveMonikerInput']"))
     )
     #busquedaBO = driver.find_element(By.XPATH, "//div[@data-automation-id='responsiveMonikerInput']")
     action = ActionChains(driver)
@@ -61,17 +61,17 @@ def BODetails(bo, driver):
 
 def close(driver):
     close = WebDriverWait(driver, 30).until(
-        EC.presence_of_element_located((By.XPATH, "//button[@data-automation-id = 'searchInputClearTextIcon']"))
-    ).click()
+        EC.element_to_be_clickable((By.XPATH, "//span[@class= 'css-9gpxd9']"))
+    )
     #close = driver.find_element(By.XPATH, "//button[@data-automation-id = 'searchInputClearTextIcon']")
-    #action = ActionChains(driver)
-    #action.click(on_element = close)
-    #action.perform() 
+    action = ActionChains(driver)
+    action.click(on_element = close)
+    action.perform() 
     
 
 def submit(driver):
     OkButton = WebDriverWait(driver, 30).until(
-        EC.presence_of_element_located((By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WAIN']"))
+        EC.element_to_be_clickable((By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WAIN']"))
     )
     #OkButton = driver.find_element(By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WAIN']")
     action = ActionChains(driver)
@@ -81,7 +81,7 @@ def submit(driver):
     
 def cancel(driver):
     cancel = WebDriverWait(driver, 30).until(
-        EC.presence_of_element_located((By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']"))
+        EC.element_to_be_clickable((By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']"))
     )
     #cancel = driver.find_element(By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']")
     action = ActionChains(driver)
@@ -92,7 +92,7 @@ def cancel(driver):
 
 def guardarRBO(driver, classBO):
     element = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, "//tr/td[5]"))
+        EC.visibility_of_element_located((By.XPATH, "//tr/td[5]"))
     )
     campos = driver.find_elements(By.XPATH, "//tr/td[5]")
     for campo in campos:

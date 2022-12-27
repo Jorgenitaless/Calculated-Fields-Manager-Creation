@@ -26,21 +26,22 @@ noBo = 1
 ft.start(driver)
 ft.login(driver)
 longi =len(df)-1
+
 print("Cantidad de BOs: %s \nNumero en loop: %s" % (len(df),longi))
 
 try:
     for objeto in range(longi):
-        print("Numero de loop %s" % counter)
+        #print("Numero de loop %s" % counter)
         
         if counter == 0:
-            print("Entro en condición counter == 0")
+            #print("Entro en condición counter == 0")
             ft.search('Business Object Details',driver)
             ft.BODetails(df.iloc[counter, 1], driver)
             ft.submit(driver)
                 
-            print("Completo busqueda de BO")
-            print("Scrapping RBO y agrego nodos")   
+            #print("Completo busqueda de BO")  
             ft.guardarRBO(driver, related)
+            print("Scrapping RBO y agrego nodos") 
             G.add_node(df.iloc[counter, 0])
             
             for item in related:
@@ -50,20 +51,23 @@ try:
             counter = counter + 1
             
         if counter > 0:
-            print("Entro en condición counter > 0")
+            #print("Entro en condición counter > 0")
             
             related.clear()
             ft.close(driver)
-            print("Cierro ventana, para inicar busqueda")
+            print("Borro busqueda")
             ft.search('Business Object Details',driver)
+            
             try:
+                
                 ft.BODetails(df.iloc[counter, 1], driver)
+                
             except (TimeoutException,NoSuchElementException,ElementClickInterceptedException,ElementNotInteractableException):
+                
                 print("Salta excepcion de busqueda de BO BODetails")
                 ft.cancel(driver)
                 driver.implicitly_wait(10)
-                ft.close(driver)
-                driver.implicitly_wait(10)
+                close = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//span[@class= 'css-9gpxd9']"))).click()
                 tarea = "bo:" + df.iloc[counter, 0]
                 busquedaGlobal = driver.find_element(By.XPATH, "//input[@data-automation-id='globalSearchInput']")
                 action = ActionChains(driver)
@@ -87,8 +91,7 @@ try:
                 print("Salta excepcion de busqueda de BO Submit")
                 ft.cancel(driver)
                 driver.implicitly_wait(10)
-                ft.close(driver)
-                driver.implicitly_wait(10)
+                close = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//span[@class= 'css-9gpxd9']"))).click()
                 tarea = "bo:" + df.iloc[counter, 0]
                 busquedaGlobal = driver.find_element(By.XPATH, "//input[@data-automation-id='globalSearchInput']")
                 action = ActionChains(driver)
@@ -105,22 +108,21 @@ try:
                     
                 for item in related:
                     G.add_edge(df.iloc[counter, 0], item) 
-                    
-            print("Completo busqueda de BO")
             
             try: 
                 ft.guardarRBO(driver, related)
             except (TimeoutException,NoSuchElementException,ElementClickInterceptedException,ElementNotInteractableException):
                 print("Salta excepcion de busqueda de BO guardarRBO")
                 ft.cancel(driver)
-                driver.implicitly_wait(10)
-                ft.close(driver)
-                driver.implicitly_wait(10)
-                tarea = "bo:" + df.iloc[counter, 0]
+                close = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//span[@class= 'css-9gpxd9']")))
+                action = ActionChains(driver)
+                action.click(on_element = close)
+                action.perform() 
+                tareaBO = "bo:" + df.iloc[counter, 0]
                 busquedaGlobal = driver.find_element(By.XPATH, "//input[@data-automation-id='globalSearchInput']")
                 action = ActionChains(driver)
                 action.click(on_element = busquedaGlobal)
-                action.send_keys(tarea)
+                action.send_keys(tareaBO)
                 action.send_keys(Keys.RETURN)
                 action.perform()
                     
@@ -147,9 +149,7 @@ try:
 except (TimeoutException,NoSuchElementException,ElementClickInterceptedException,ElementNotInteractableException):
     print("Salta excepción total")
     ft.cancel(driver)
-    driver.implicitly_wait(10)
     ft.close(driver)
-    driver.implicitly_wait(10)
     tarea = "bo:" + df.iloc[counter, 0]
     busquedaGlobal = driver.find_element(By.XPATH, "//input[@data-automation-id='globalSearchInput']")
     action = ActionChains(driver)
