@@ -1,8 +1,10 @@
 
 import matplotlib.pyplot as plt
+import networkx as nx
+import pickle
 
-graph = {'Worker':{'Supervisory':1,'c':1},'Supervisory':{'Worker':1,'c':1,'d':1},'c':{'Supervisory':1,'d':1,'e':1},'d':{'c':1,'e':1},'e':{'d':1},'f':{'d':1}}
- 
+#graph = {'Worker':{'Supervisory':1,'c':1},'Supervisory':{'Worker':1,'c':1,'d':1},'c':{'Supervisory':1,'d':1,'e':1},'d':{'c':1,'e':1},'e':{'d':1},'f':{'d':1}}
+graph = nx.read_gpickle('graph.pickle')
 
 def dijkstra(graph,start,goal):
     shortest_distance = {}
@@ -42,4 +44,4 @@ def dijkstra(graph,start,goal):
         print('The path is ' + str(path))
  
  
-dijkstra(graph, 'f', 'Worker')
+dijkstra(graph, 'Class', 'Instance')
