@@ -42,6 +42,7 @@ try:
             #print("Completo busqueda de BO")  
             ft.guardarRBO(driver, related)
             print("Scrapping RBO y agrego nodos") 
+            print(related)
             G.add_node(df.iloc[counter, 0])
             
             for item in related:
