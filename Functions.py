@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import (NoSuchElementException,ElementClickInterceptedException,ElementNotInteractableException, TimeoutException)
 
 
 #################### Selenium functions
@@ -37,7 +38,6 @@ def search(tarea, driver):
     action = ActionChains(driver)
     action.click(on_element = busquedaGlobal)
     action.send_keys(tarea)
-    driver.implicitly_wait(10)
     action.send_keys(Keys.RETURN)
     action.perform()
     task = WebDriverWait(driver, 30).until(
@@ -54,14 +54,13 @@ def BODetails(bo, driver):
     action = ActionChains(driver)
     action.click(on_element = busquedaBO)
     action.send_keys(bo)
-    driver.implicitly_wait(10)
     action.send_keys(Keys.ENTER)
     action.perform()
 
 
 def close(driver):
     close = WebDriverWait(driver, 30).until(
-        EC.element_to_be_clickable((By.XPATH, "//span[@class= 'css-9gpxd9']"))
+        EC.visibility_of_element_located((By.XPATH, "//span[@class= 'css-9gpxd9']"))
     )
     #close = driver.find_element(By.XPATH, "//button[@data-automation-id = 'searchInputClearTextIcon']")
     action = ActionChains(driver)
@@ -80,60 +79,50 @@ def submit(driver):
     OkButton.click()
     
 def cancel(driver):
-    cancel = WebDriverWait(driver, 30).until(
-        EC.element_to_be_clickable((By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']"))
-    )
-    #cancel = driver.find_element(By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']")
+    try: 
+        cancel = WebDriverWait(driver, 30).until(
+            EC.visibility_of_element_located((By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']"))
+        )
+    except (TimeoutException):
+        cancel = driver.find_element(By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']")
+        
     action = ActionChains(driver)
     action.click(on_element = cancel)
     action.perform()
     cancel.click()
 
 
-def guardarRBO(driver, classBO):
-    element = WebDriverWait(driver, 10).until(
-        EC.visibility_of_element_located((By.XPATH, "//tr/td[5]"))
-    )
-    campos = driver.find_elements(By.XPATH, "//tr/td[5]")
-    for campo in campos:
-        classBO.append(campo.text)
-
-
-#################### Search Algorithm
-def dijkstra(graph,start,goal):
-    shortest_distance = {}
-    predecessor = {}
-    unseenNodes = graph
-    infinity = 9999999
-    path = []
-    for node in unseenNodes:
-        shortest_distance[node] = infinity
-    shortest_distance[start] = 0
- 
-    while unseenNodes:
-        minNode = None
-        for node in unseenNodes:
-            if minNode is None:
-                minNode = node
-            elif shortest_distance[node] < shortest_distance[minNode]:
-                minNode = node
- 
-        for childNode, weight in graph[minNode].items():
-            if weight + shortest_distance[minNode] < shortest_distance[childNode]:
-                shortest_distance[childNode] = weight + shortest_distance[minNode]
-                predecessor[childNode] = minNode
-        unseenNodes.pop(minNode)
- 
-    currentNode = goal
-    while currentNode != start:
-        try:
-            path.insert(0,currentNode)
-            currentNode = predecessor[currentNode]
-        except KeyError:
-            print('Path not reachable')
-            break
-    path.insert(0,start)
-    if shortest_distance[goal] != infinity:
-        print('Shortest distance is ' + str(shortest_distance[goal]))
-        print('The path is ' + str(path))
+def guardarRBO(driver, classBO, bo):
+    try:    
+        element = WebDriverWait(driver, 10).until(
+        EC.visibility_of_element_located((By.XPATH, "//div[@data-automation-id = 'tableWrapper']"))
+        )
+    except (TimeoutException): 
+        print("Salta excepcion, Buscando por bo:Business object")
+        cancel(driver)
+        close(driver)
+        tareaBO = "bo:" + bo
+        busquedaGlobal = WebDriverWait(driver, 30).until(
+            EC.visibility_of_element_located((By.XPATH, "//input[@data-automation-id='globalSearchInput']"))
+        ).clear()
+        action = ActionChains(driver)
+        action.click(on_element = busquedaGlobal)
+        action.send_keys(tareaBO)
+        action.send_keys(Keys.RETURN)
+        action.perform()
+        task = WebDriverWait(driver, 30).until(
+            EC.visibility_of_element_located((By.XPATH, "//a[text()='"+bo+"']"))
+        )
+        task.click()
+            
+        guardarRBO(driver, classBO, bo)
+           
+    
+    try: 
+        campos = driver.find_elements(By.XPATH, "//tr/td[5]")
+    except (NoSuchElementException,TimeoutException):
+        print("No hay valores")
         
+    if campos:
+        for campo in campos:
+                classBO.append(campo.text)
