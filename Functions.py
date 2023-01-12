@@ -83,7 +83,7 @@ def cancel(driver):
     cancel = WebDriverWait(driver, 30).until(
         EC.element_to_be_clickable((By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']"))
     )
-    #cancel = driver.find_element(By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']")
+    #cancel = driver.find_element(By.XPATH, "//button[@class='WJGN WISO WGFN WJ-N WNGN']")
     action = ActionChains(driver)
     action.click(on_element = cancel)
     action.perform()
