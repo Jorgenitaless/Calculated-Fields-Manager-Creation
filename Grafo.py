@@ -8,6 +8,9 @@ G = nx.read_gpickle('parts.pickle')
 pos = nx.spring_layout(G)
 nx.draw(G, with_labels=True)
 
-print(nx.shortest_path(G, source='Class', target='Functional Area'))
+#print(nx.shortest_path(G, source='Class', target='Domain'))
 plt.show()
+
+
+
 
