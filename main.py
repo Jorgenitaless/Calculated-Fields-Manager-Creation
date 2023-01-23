@@ -33,13 +33,14 @@ while counter != longi:
     ft.login(driver)
 
     for objeto in range(300):
+        related.clear()
         ft.search(df.iloc[counter, 1],driver, action, df.iloc[counter, 0])
         ft.guardarRBO(driver, related, df.iloc[counter, 0], action)
         ft.close(driver, action)
         G.add_node(df.iloc[counter, 0])
         if len(related) > 0:    
             for item in related:
-                if item not in related and item != '':
+                if item not in related or item != '':
                     G.add_edge(df.iloc[counter, 0], item)
                 
         pickle.dump(G, open('parts.pickle', 'wb'))
