@@ -28,25 +28,25 @@ def login(driver):
     password.send_keys("!l0v3WDAY")
     
     login = driver.find_element(By.XPATH, "//button[@data-automation-id='goButton']")
-    login.click()
-    
-def search(tarea, driver):
+    login.click()  
+   
+def search(tarea, driver, action, nombre):
     busquedaGlobal = WebDriverWait(driver, 30).until(
         EC.visibility_of_element_located((By.XPATH, "//input[@data-automation-id='globalSearchInput']"))
     )
     #busquedaGlobal = driver.find_element(By.XPATH, "//input[@data-automation-id='globalSearchInput']")
-    action = ActionChains(driver)
+
     action.click(on_element = busquedaGlobal)
     action.send_keys(tarea)
     action.send_keys(Keys.RETURN)
     action.perform()
     task = WebDriverWait(driver, 30).until(
-        EC.visibility_of_element_located((By.XPATH, "//a[text()='"+tarea+"']"))
+        EC.visibility_of_element_located((By.XPATH, '//a[text()="'+nombre+'"]'))
     )
     #task = driver.find_element(By.XPATH, "//a[text()='"+tarea+"']")
     task.click()
-    
-def BODetails(bo, driver):
+''' 
+def BODetails(bo, driver, action):
     try:
         busquedaBO = WebDriverWait(driver, 30).until(
             EC.visibility_of_element_located((By.XPATH, "//div[@data-automation-id='responsiveMonikerInput']"))
@@ -54,36 +54,34 @@ def BODetails(bo, driver):
     except(TimeoutException):
         busquedaBO = driver.find_element(By.XPATH, "//div[@data-automation-id='responsiveMonikerInput']")
         
-    action = ActionChains(driver)
     action.click(on_element = busquedaBO)
     action.send_keys(bo)
     action.send_keys(Keys.ENTER)
     action.perform()
+'''
 
-
-def close(driver):
+def close(driver, action):
     try:
         close = WebDriverWait(driver, 30).until(
             EC.visibility_of_element_located((By.XPATH, "//span[@class= 'css-9gpxd9']"))
         )
     except(TimeoutException):
         close = driver.find_element(By.XPATH, "//span[@class= 'css-9gpxd9']")
-    action = ActionChains(driver)
-    action.click(on_element = close)
+  
+    action.move_to_element(close).click(on_element = close)
     action.perform() 
     
-
-def submit(driver):
+'''
+def submit(driver, action):
     OkButton = WebDriverWait(driver, 30).until(
-        EC.element_to_be_clickable((By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WAIN']"))
+        EC.element_to_be_clickable((By.XPATH, "//button[@data-automation-id='wd-CommandButton_uic_okButton']"))
     )
     #OkButton = driver.find_element(By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WAIN']")
-    action = ActionChains(driver)
+
     action.click(on_element = OkButton)
     action.perform()
-    OkButton.click()
-    
-def cancel(driver):
+   
+def cancel(driver, action):
     try: 
         cancel = WebDriverWait(driver, 30).until(
             EC.visibility_of_element_located((By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']"))
@@ -91,44 +89,89 @@ def cancel(driver):
     except (TimeoutException):
         cancel = driver.find_element(By.XPATH, "//button[@class='WJGN WNGN WISO WJ-N WGFN']")
         
-    action = ActionChains(driver)
     action.click(on_element = cancel)
     action.perform()
-    cancel.click()
+'''
 
-
-def guardarRBO(driver, classBO, bo):
+def guardarRBO(driver, classBO, bo, action):
+    element = WebDriverWait(driver, 60).until(
+        EC.visibility_of_element_located((By.XPATH, "//div[@data-automation-id = 'tableWrapper']"))
+        )
+    
     try: 
-        popup = WebDriverWait(driver, 5).until(
-            EC.visibility_of_element_located((By.XPATH, "//div[@data-automation-id = 'errorWidgetInlineMessageTextCanvas']"))
-            )
-        
+        campos = driver.find_elements(By.XPATH, "//tr/td[5]")
+    except (NoSuchElementException,TimeoutException):
+        print("No hay valores") 
+               
+    if campos:
+        for campo in campos:
+                classBO.append(campo.text)
+    
+'''
+def guardarRBO(driver, classBO, bo, action):
+    
+    try:    
+        element = WebDriverWait(driver, 60).until(
+        EC.visibility_of_element_located((By.XPATH, "//div[@data-automation-id = 'tableWrapper']"))
+        )
+    except (TimeoutException): 
         print("Salta excepcion, Buscando por bo:Business object")
-        cancel(driver)
-        close(driver)
+        cancel(driver, action)
+        close(driver, action)
         tareaBO = "bo:" + bo
-        busquedaGlobal = WebDriverWait(driver, 30).until(
+        busquedaGlobal = WebDriverWait(driver, 10).until(
             EC.visibility_of_element_located((By.XPATH, "//input[@data-automation-id='globalSearchInput']"))
-        ).clear()
-        action = ActionChains(driver)
+        )
         action.click(on_element = busquedaGlobal)
         action.send_keys(tareaBO)
         action.send_keys(Keys.RETURN)
         action.perform()
-        task = WebDriverWait(driver, 30).until(
+        task = WebDriverWait(driver, 10).until(
             EC.visibility_of_element_located((By.XPATH, "//a[text()='"+bo+"']"))
         )
         task.click()
         
-        guardarRBO(driver, classBO, bo)
+        guardarRBO(driver, classBO, bo, action)
+
+
+    try: 
+        campos = driver.find_elements(By.XPATH, "//tr/td[5]")
+    except (NoSuchElementException,TimeoutException):
+        print("No hay valores") 
+               
+    if campos:
+        for campo in campos:
+                classBO.append(campo.text)
+    
+    
+    
+    try: 
+        popup = WebDriverWait(driver, 2).until(
+            EC.visibility_of_element_located((By.XPATH, "//div[@data-automation-id = 'errorWidgetInlineMessageTextCanvas']"))
+            )
+        
+        print("Salta excepcion, Buscando por bo:Business object")
+        cancel(driver,action)
+        close(driver,action)
+        tareaBO = "bo:" + bo
+        busquedaGlobal = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.XPATH, "//input[@data-automation-id='globalSearchInput']"))
+        )
+        action.click(on_element = busquedaGlobal)
+        action.send_keys(tareaBO)
+        action.send_keys(Keys.RETURN)
+        action.perform()
+        task = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.XPATH, "//a[text()='"+bo+"']"))
+        )
+        task.click()
+        
+        guardarRBO(driver, classBO, bo, action)
         
     except(TimeoutException):
         element = WebDriverWait(driver, 60).until(
         EC.visibility_of_element_located((By.XPATH, "//div[@data-automation-id = 'tableWrapper']"))
         )
-       
-        
-        
         try: 
             campos = driver.find_elements(By.XPATH, "//tr/td[5]")
         except (NoSuchElementException,TimeoutException):
@@ -138,38 +181,4 @@ def guardarRBO(driver, classBO, bo):
                     classBO.append(campo.text)
     
     
-    '''
-    try:    
-        element = WebDriverWait(driver, 60).until(
-        EC.visibility_of_element_located((By.XPATH, "//div[@data-automation-id = 'tableWrapper']"))
-        )
-    except (TimeoutException): 
-        print("Salta excepcion, Buscando por bo:Business object")
-        cancel(driver)
-        close(driver)
-        tareaBO = "bo:" + bo
-        busquedaGlobal = WebDriverWait(driver, 30).until(
-            EC.visibility_of_element_located((By.XPATH, "//input[@data-automation-id='globalSearchInput']"))
-        ).clear()
-        action = ActionChains(driver)
-        action.click(on_element = busquedaGlobal)
-        action.send_keys(tareaBO)
-        action.send_keys(Keys.RETURN)
-        action.perform()
-        task = WebDriverWait(driver, 30).until(
-            EC.visibility_of_element_located((By.XPATH, "//a[text()='"+bo+"']"))
-        )
-        task.click()
-            
-        guardarRBO(driver, classBO, bo)
-           
-    
-    try: 
-        campos = driver.find_elements(By.XPATH, "//tr/td[5]")
-    except (NoSuchElementException,TimeoutException):
-        print("No hay valores")
-        
-    if campos:
-        for campo in campos:
-                classBO.append(campo.text)
 '''
