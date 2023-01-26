@@ -1,0 +1,40 @@
+Class
+Attribute
+Relationship
+Text Attribute
+Element
+Instance Set
+Instance
+Numeric Attribute
+Date Attribute
+Person
+Role
+Common Date
+Workday Account
+Element Content
+Module
+Display Option
+Static Application Word Bucket
+Action Category
+Validation
+Relational Operator
+Exception
+Military Status
+Citizenship Status
+Authority
+Location
+Job Profile
+Job Classification
+Job Classification Group
+Organization
+Contactable
+Address
+Language Skill
+Language
+Ethnicity
+Marital Status
+Language Ability
+Internet Email Address
+Employee
+Instant Messenger
+Web Address
