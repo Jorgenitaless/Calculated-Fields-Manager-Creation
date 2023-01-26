@@ -4,3 +4,4 @@ Exception
 Contactable
 Compensation Element Value
 COMPEC
+Course Offering

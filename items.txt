@@ -79,3 +79,67 @@ Compensation Package
 Compensation Partner
 Compensation Assignable Component
 Location Type
+Employee Compensation Event For Staffing
+Employee Compensation Event For Ad Hoc
+Employee Compensation Event for Compensation Plan Adjustment
+Team Leader
+Transfer Employee Inbound Event
+Tenant Setup
+WS Test Employee
+Employee Compensation Event For Change Position
+Related Person for Worker
+Termination Event
+Web Service Operation
+Action Event
+Management Level
+Pre-Hire Evaluation
+Event
+comppee
+compmpee
+Global Identifier
+Visa Identifier
+Passport Identifier
+Government Identifier
+License Identifier
+Custom Identifier
+Identifier Type
+Custom ID Type
+Accomplishment
+Related Task Object
+Course Offering
+Organization Status
+Update Event
+Health Care Coverage Plan
+Benefit Plan
+Spending Account Plan
+Insurance Coverage Plan
+Health Care Coverage Cost
+Benefit Provider
+Insurance Coverage Target
+Coverage Level
+Qualification Rating
+Competency
+Proficiency Rating Behavior
+Insurance Election
+Benefit Election
+Health Care Election
+Spending Account Election
+Benefit Plan Year Definition
+Skill Achievement
+Work Experience
+Job History
+Benefit Event
+Open Enrollment
+Professional Affiliation
+Internal Project
+Training
+Award and Activity
+External Pay Group (Do Not Use)
+Assessable Skill
+Certification
+Event Classification Category
+Event Classification Subcategory
+Leave Type
+Worker Status
+Leave Request Event
+Leave Return Event
