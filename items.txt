@@ -201,3 +201,24 @@ Job Previous System History
 Compensation History from Previous System
 Journal Entry
 Journal Line
+Journal
+Journal Source
+Reorganization
+Business Process Type
+Pre-Hire Qualification
+Pre-Hire Qualification Status
+Correction Event
+Business Document
+Business Document Line
+Supplier Invoice Line
+Invoice Document
+Supplier Invoice
+Invoice Adjustment
+Supplier Invoice Adjustment
+COBRA Eligibility Status
+Supplier Payment
+Supplier Payment Application
+COBRA Eligibility Reason
+Payment Group
+Ad Hoc Payment
+Supplier Payment (Use Subclasses)
