@@ -166,3 +166,38 @@ Review Responsibility
 Review Goal
 Review Development Area
 Payroll Interface Data Change Event
+Employee Compensation Event For Position Group Default
+Retirement Savings Coverage Type
+Retirement Savings Plan
+Ledger Account
+Ledger Account and Ledger Account Summary
+Item Descriptor
+Retirement Savings Election
+Ledger Account Summary
+Workflow Role
+Business Process Definition
+Workflow Step
+Workflow Notification
+To Do
+Approval Event
+To Do Event
+Change Workday Account Name
+Event Record
+Revenue Category
+Spend Category
+Sales Item
+Purchase Item
+One-Time Payment Plan
+One-Time Payment Plan Event For Employment
+One-Time Payment Event
+One-Time Payment
+Aging Category
+Tax Code
+Bank Account
+Attachment
+Fiscal Period
+Person Data Event
+Job Previous System History
+Compensation History from Previous System
+Journal Entry
+Journal Line
