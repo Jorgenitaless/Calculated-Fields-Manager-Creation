@@ -71,3 +71,4 @@ def program(G):
     print("BO Objetivo")
     target = input()
     print(nx.shortest_path(G, source=source, target=target))
+    

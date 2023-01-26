@@ -143,3 +143,26 @@ Leave Type
 Worker Status
 Leave Request Event
 Leave Return Event
+Leave of Absence Event
+Responsibility Achievement
+OMS Version
+Life Change Event
+Integration Identifier
+Integratable
+Integration System
+Skill Qualification Enabled
+Stock Unit Plan
+Stock Grant
+Stock Grant Event
+Beneficiary Allocation
+Time Off Event
+Time Off Entry
+Exit Interview
+Employee Review Template
+Performance Review
+Review Component
+Review Accomplishment
+Review Responsibility
+Review Goal
+Review Development Area
+Payroll Interface Data Change Event
