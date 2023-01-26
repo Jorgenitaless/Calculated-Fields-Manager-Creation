@@ -222,3 +222,17 @@ COBRA Eligibility Reason
 Payment Group
 Ad Hoc Payment
 Supplier Payment (Use Subclasses)
+Benefit Plan Eligibility Rule
+Financial Statement Line
+Customer Invoice
+Benefit Coverage Type
+Benefit Event Type
+Customer Invoice Adjustment
+Customer Payment
+Customer Payment for Invoices
+Customer Deposit
+Payment Application
+Customer Payment Application
+Subscription
+Position Edit Event
+Evaluation Event
