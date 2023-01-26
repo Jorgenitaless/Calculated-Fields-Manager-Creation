@@ -2,3 +2,5 @@ Element Content
 Validation
 Exception
 Contactable
+Compensation Element Value
+COMPEC

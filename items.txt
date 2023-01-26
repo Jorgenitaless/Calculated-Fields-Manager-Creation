@@ -38,3 +38,44 @@ Internet Email Address
 Employee
 Instant Messenger
 Web Address
+Role Assignment
+Assignable Role
+Phone Data
+Job Family
+Worker
+Contingent Worker
+Manager
+HR Partner
+Emergency Contact
+Pre-Hire
+Staffing Event
+Demote Employee Inbound Event
+Hire Employee Event
+Promote Employee Inbound Event
+Web Service
+Position, Headcount, or Hiring Business Process
+Position Request Event
+Hire Event
+Contract Contingent Worker Event
+Visibility Change
+Dependent
+Beneficiary Person
+Position Change Event
+Education
+Compensation Element
+Compensation Element Value
+Compensation Plan Default
+Compensation Rule Assignments
+COMPEC
+Employee Compensation Event
+Compensation Grade
+Compensation Grade Profile
+Compensation Plan
+Bonus Plan
+Merit Plan
+Salary Pay Plan
+Frequency
+Compensation Package
+Compensation Partner
+Compensation Assignable Component
+Location Type

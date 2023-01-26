@@ -85,6 +85,7 @@ while counter != longi:
     driver.quit()
 
 file.close()
+#Tiempo final
 fin = time.time()
 print(fin-inicio)
 
