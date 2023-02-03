@@ -1,5 +1,7 @@
 #Librerías
 import pandas as pd
+import os
+import shutil
 import json
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -55,20 +57,23 @@ def guardarRBO(driver, classBO, bo, action):
     element = WebDriverWait(driver, 60).until(
         EC.visibility_of_element_located((By.XPATH, "//div[@data-automation-id = 'tableWrapper']"))
         ) 
+    
     try: 
         campos = driver.find_elements(By.XPATH, "//tr/td[5]")
+        
+        selector = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//div[@data-automation-id = 'excelIconButton']")))
+        selector.click()
+        downloadBtn = WebDriverWait(driver, 90).until(EC.element_to_be_clickable((By.XPATH, "//button[@data-automation-id = 'uic_downloadButton']")))                #acciones complicadas con el mouse 
+        action.move_to_element(downloadBtn)
+        action.click(downloadBtn)
+        action.perform()
+        
+        
+    
     except (NoSuchElementException,TimeoutException):
         print("No hay valores") 
-               
-    if campos:
-        for campo in campos:
-                classBO.append(campo.text)
+    
 
 
-def program(G):
-    print("BO inicio")
-    source = input()
-    print("BO Objetivo")
-    target = input()
-    print(nx.shortest_path(G, source=source, target=target))
+    
     

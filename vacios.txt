@@ -5,3 +5,19 @@ Contactable
 Compensation Element Value
 COMPEC
 Course Offering
+Contingent Worker
+Hire Event
+Transfer Employee Inbound Event
+Termination Event
+Time Off Event
+Payroll Interface Data Change Event
+Position Edit Event
+Worker Business Process
+Matrix Organization Event
+Set Review Content
+Employee Compensation Event for Compensation Plan
+Add Additional Job Event
+End Additional Job Event
+Abstract Parameter
+Scheduled Installment
+Worker Skill Event

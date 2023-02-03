@@ -11,14 +11,11 @@ Person
 Role
 Common Date
 Workday Account
-Element Content
 Module
 Display Option
 Static Application Word Bucket
 Action Category
-Validation
 Relational Operator
-Exception
 Military Status
 Citizenship Status
 Authority
@@ -27,7 +24,6 @@ Job Profile
 Job Classification
 Job Classification Group
 Organization
-Contactable
 Address
 Language Skill
 Language
@@ -41,19 +37,21 @@ Web Address
 Role Assignment
 Assignable Role
 Phone Data
+Job FamilyWorker
 Job Family
 Worker
-Contingent Worker
 Manager
 HR Partner
 Emergency Contact
 Pre-Hire
 Staffing Event
-Demote Employee Inbound Event
-Hire Employee Event
+Demote Employee Inbound EventHire Employee Event
 Promote Employee Inbound Event
 Web Service
+Demote Employee Inbound Event
+Hire Employee Event
 Position, Headcount, or Hiring Business Process
+Position Request EventHire Event
 Position Request Event
 Hire Event
 Contract Contingent Worker Event
@@ -63,10 +61,8 @@ Beneficiary Person
 Position Change Event
 Education
 Compensation Element
-Compensation Element Value
 Compensation Plan Default
 Compensation Rule Assignments
-COMPEC
 Employee Compensation Event
 Compensation Grade
 Compensation Grade Profile
@@ -106,7 +102,6 @@ Identifier Type
 Custom ID Type
 Accomplishment
 Related Task Object
-Course Offering
 Organization Status
 Update Event
 Health Care Coverage Plan
@@ -443,7 +438,6 @@ Eligibility Interface
 Scheduling Interface
 Limit Interface
 Absence Calculation
-Supplier
 Application Input
 Absence Input
 Application Reference
@@ -825,8 +819,7 @@ Supervisory Organization Stock Unit Allocation
 Qualified Domestic Relations Order
 Components
 Position Budget
-Position Budget
-Cash Forecast Transaction
+Position BudgetCash Forecast Transaction
 Plan
 Payment Election Option
 Pay Type Payment Election Option Line
@@ -850,7 +843,6 @@ Proration Segment Structure
 Valuation Date Override
 Project Timesheet Line
 Investor
-Talent Pool
 Fringe Benefit Actual
 Fringe Benefit Actual Costing
 Payroll Commitment Event
@@ -880,299 +872,3 @@ Document Tag
 1099 Run
 Tax Reportable Payee
 Worker Credit Card Purge
-Worker Credit Card Purge Event
-Customer Invoice Maintenance
-Time Block
-Time Review Event
-Time Entry Template
-Time Setup Worktag Joiner
-Last Extract Created
-Time Code Group
-1099 Electronic Filing Run Event
-Time Total Option Joiner
-Time Tracking Eligibility
-Payment Return
-Relocation Preferences
-Relocation Preferences Event
-Approve Expense Report Task
-Asset Book Configuration
-Health Care Coverage
-Review and Approve Compensation Task
-Pay Component Interface (CAN)
-Insurance Coverage
-Goal Category
-Manager Snapshot Interface
-Position Related Snapshot Interface
-Compensation Pay Component
-Request Compensation Task
-Approve Spend Authorization Task
-Approve Request Time Off Task
-Review Expense Report Task
-Manager Evaluation Task
-Review Request Time Off Task
-Time Calculation Group
-Compensation Plan and Assignment Deprecated CRF
-Compensation Plan and Assignment and OTP Deprecated CRF
-Create Job Requisition Task
-Edit Job Requisition Task
-Approve Project Task
-Approve Requisition Task
-Approve Customer Invoice Task
-Talent Review Document
-Propose Employee Merit Award
-Approve Purchase Order Event Task
-Academic Appointment Track
-Academic Appointment Event
-Academic Appointment
-Asset Custodial Activity
-Travel Preferences
-Solution
-Solution Object
-Effort Certification Event
-Asset Cost Detail
-Program
-Asset Cost Activity
-Grant
-Expense Credit Card Payment
-Time Calculation Tag
-Business Unit
-Time Calculation
-Plan Profile
-Effort Certification
-Effort Certification Line
-Personal Note
-Form I-9
-Complete Form I-9
-Asset Acquisition
-Remittance File
-Worker Tax Treaty
-Family Maintenance (CAN)
-Note
-Notable
-Review Requisition Task
-Retirement Savings Coverage Type Level Enrollment Values
-Review Purchase Order Task
-Source Goods Requisition Task
-Source Service Requisition Task
-Source Goods From Storage Task
-DSO Calculation Row Period (Derived)
-Source After Partial Source From Storage Task
-Supplier Order Collaboration Task
-PO Contract Compliance Task
-Approve Change Order Task
-Review Supplier Request Task
-Supplier Request Approval Task
-External Payroll Result (Do Not Use)
-Time Block (Coordinated)
-Time Evaluation Context
-Time Day
-Time Week
-Staff
-Asset Book Rule
-Provisioning Group
-Provisioning Group Assignment
-Beneficiary
-Trust
-Effort Certification Survey Question
-Effort Certification Survey Response
-Effort Certification Surveyable
-Useful Life Update
-Job Interest
-Assess Potential and Talent Embedded BI Data
-Succession Plan Embedded BI Data
-Consolidated Payroll Result (Expanded)
-Social Network Account
-Social Network Event
-Employee Career Preferences
-Supplier Invoice Document Review Task
-Approve Supplier Invoice Document Task
-1099 Transaction
-1099 Adjustment
-1099 Adjustment Line
-Idea
-Risk
-Request One-Time Payment Task
-Review and Approve One-Time Payment Task
-Approve Receipt Task
-Create Supplier Invoice from Receipt BI Data
-Audit Expense Report Task
-Job Profile Snapshot Interface
-Abstract Credit Card Transaction
-Supplier Catalog
-Development Item
-Supplier Invoice Line Distribution
-Supplier Invoice Line Split
-Supplier Contract Abstract
-Supplier Contract Amendment
-Supplier Contract History
-Onboarding Business Process
-Time Calculation Tag Set
-Payroll Result Embedded BI Derived
-Embedded BI Payroll Result DI
-Purchase Order Line Split
-Purchase Order Line Distribution
-Contact Information
-Report Run History
-Compensation Supervisory Organization Distribution
-Taggable with Interworktag Affiliate
-Dependent Event
-Receivable Contract Abstract
-Award Abstract
-Award Amendment
-Supplier Contract Schedule
-Purchase Order Schedule
-Supplier Invoice Schedule
-Receipt Line Distribution
-Requisition Line Split
-Compensation Award Type Configuration
-Terminate Employee Event BI Data
-Group Accum Attribute Result
-Supplier Contract Installment
-Asset In Service Suspend Schedule
-Balancing Worktag Allocation
-Static Query Index Field
-Business Document Line Distribution
-Feedback Badge (Metadata)
-Compensation Supervisory Organization Distribution Aggregation
-Logic Calculation Operand (All)
-Payment Application Balancing Worktag Allocation
-Asset Intercompany Transfer In Event
-Propose Employee Award
-Supplier Contract Line
-Compensation Review Pool Drilldown
-Propose Employee Bonus Award
-Propose Employee Stock Award
-Document
-Document Snapshot
-Test AIIP
-Benefit Change
-Review Document Event
-Review Document
-Contact Information Event
-Accounting Worktag Setup Data
-iPad Ribbon Derived Data
-Common Financial Line Dimensions
-Custom Field Type
-Benefit Jobs Event
-Asset Book
-Company Asset Book
-Payroll Year End Form
-T4
-RL-1
-Review Development Item
-Data Source Filter
-Development Item Proposal
-Credit Card Transaction Line
-Approve Supplier Contract Task
-Approve Supplier Contract Amendment Task
-Review Supplier Contract Task
-Review Supplier Contract Amendment Task
-Service Center
-Service Center Representative
-Abstract Spend Data Name
-Payment Handling Instruction
-Publish Solution
-Consume Solution
-Data Center Environment
-Background Check
-Background Check Event
-Compensation Pay Range
-OAuth Service Provider
-Business Form Report Design
-Company Relationship
-Company Relationship Reporting
-Common Pay Agent
-Review Career
-Credit Card Payment
-Facilities And Administration Rate Agreement
-Facilities and Admin Cost Rate Type Snapshot
-External User
-Data Center Environment External User
-Manage Goal Add New Goal BI Data
-Supplier Invoice Schedule Approval Task
-Purchase Order Schedule Approval Task
-Purchase Order Schedule Review BI Data
-Facilities And Administration Cost Rate Type Type
-Procurement Card Transaction Verification
-Procurement Card Transaction Verification Summary
-Procurement Card Transaction Verification Line
-Component Limit Detail (All)
-Abstract Payee Data Name
-Multiple Limit Interface
-Custom Currency
-Letter Of Credit
-Supplier Contract Print Layout
-Change Job Task
-Change Benefits Embedded BI Data
-Staffing Embedded BI Data
-Switch Primary Job Event
-TD1X Election
-Skill
-Taggable with Balancing Worktag
-Project Scenario Group (DO NOT USE)
-Project Scenario (DO NOT USE)
-Award Proposal
-Solution Reporting Object
-Worker Time
-Time Shift
-Secured (All)
-Worklet Mappings (All)
-Project Scenario Plan Task
-Award Proposal Personnel
-Award Proposal Line
-Payroll Payee Ongoing Jurisdiction Splits
-RL-1 Summary DI
-Award Proposal Personnel Line
-T4 Summary DI
-PTD1X Election
-Disability Status
-Custom Object
-Business Object
-Payroll Payee Ongoing Jurisdiction
-Contingent Worker Requisition Line
-Project-Based Requisition Line
-Intercompany Receipt
-Purchase Order History
-Asset Impairment
-Supplier Contract Installment Line
-Cost Reimbursable Spend Line
-Asset Reinstatement
-Sponsor
-School
-Professional Profile Event
-Benefit Annual Rate
-Time Clock Event
-Procurement Card Transaction Verification Line Distribution
-Set Review Content for Performance Review
-Project Scenario Assignment
-Employee Severance Worksheet Embedded BI Data
-Gift
-Disciplinary Action Reason
-Academic Unit
-Donor
-Academic Unit Hierarchy
-Tax Applicability
-Academic Track Type Category Group
-Track Type Category
-Track Type
-Project Scenario Assignment Allocation
-Additional Evaluation Task
-Spreadsheet Generatable
-Get Feedback from Review Embedded BI Data
-Data Source
-Job Profile Pay Rate
-Single Task Delegation Event
-Benefit Annual Credit
-Trended Record Type
-App Usage Metric Tabular Values
-Fiscal Year
-Academic Embedded BI Data
-Communication Usage Behavior
-Academic Appointment Set
-Employee Severance Worksheet Event
-Solution Publish Event
-Income Distribution Percent Rule
-Investment Pool Purchase
-Date Interval
-Date Time Precision
-Logical Operator
