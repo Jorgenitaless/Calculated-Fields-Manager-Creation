@@ -56,7 +56,7 @@ while counter != longi:
     ft.start(driver)
     ft.login(driver)
     #Cada 300 termina sesión y vuelve a empezar
-    for objeto in range(300):
+    for objeto in range(1000):
         related.clear()
         #si el objeto no ha sido cargado
         if df.iloc[counter, 0] not in items:

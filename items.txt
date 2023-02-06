@@ -1596,3 +1596,1237 @@ Pay Range Segment Type
 Facilities And Administration Exception
 FTE Dimension (Abstract)
 Award Type
+Award Purpose Code
+Academic Organization Subtype
+Dispute Reason
+Collection Code
+Job History Company
+Skill Category
+Severance Package
+Award Personnel Responsibility
+Benefit Annual Rate Type
+Personnel Worker
+Calendar Month
+CIP Code
+Shift Grouping Option
+Purchase Order Type
+Supplier Invoice Line Type
+Award Personnel Schedule Type
+Time Clock Event Status
+Time Tracking Submit Text
+Revision Header
+Worker Accomplishment Event
+Award and Activity Event
+Worker Competency Event
+Job History Event
+Worker Internal Project Event
+Language Event
+Worker Training Event
+Worker Work Experience Event
+Travel Preferences Event
+Organization Type
+Contingent Worker Type
+Employee Type
+Work Experience Skill
+Supplier Group
+Customer Group
+Purchase Item Group
+Sales Item Group
+Unit of Measure
+Expense Item Group
+Event Service
+Statistic Definition
+Unit of Time
+Award Year
+Sponsor Type
+Religion
+Employee Contract Event
+Default Performance Axis Calibration Value
+Worker Calibration Event
+Calibration Event
+Calibration Program
+Month
+Calibration Value
+Pay Adjustment
+Gift Type
+Gift Purpose
+Workflow Process Participant
+Reference Number
+Job Application
+Donor Type
+Investment Pool
+Enrollment Offering
+Collective Agreement
+Employee Contract Reason
+Transaction Log Lite
+Insurance Coverage Plan Age Reduction
+Procurement Date Option
+Solution Tag
+Schedule Event
+Role Assignee
+Benefit Annual Credit Type
+Supplier Contract State Line Type
+Cloud Collection (Studio Project)
+Schema Model
+Inbox Filter
+Investment Statement
+Investment Statement Line
+Supplier Invoice Line Abstract
+Donor Contribution
+Disability Certification Authority
+Disability Certification Basis
+Disability Grade
+Prepaid Spend Amortization
+Investment Profile
+Investment Statement Event
+Investment Statement Line Type
+Military Rank
+Military Service Type
+Prepaid Amortization Type
+Prepaid Spend Amortization Schedule
+Capital Project Cost Reclassification
+Income Distribution Amount Rule
+Approve Effort Certification Task
+Review Effort Certification Task
+Inactivate Service Center Representative Event
+Headcount Plan Entry
+Headcount Plan Line
+Headcount Plan Template (Do Not Use)
+Headcount Plan Organization
+Time Clock Error
+Investment Pool Purchase Line
+Project Asset
+Worker for Time Tracking Embedded BI Derived
+Investment Pool Valuation
+Multi-Taggable Set
+Taggable Type
+Compensation Grade Level
+Prepaid Spend Amortization Installment
+Term Context
+Payroll Off-cycle Group
+Worker Talent Review Event
+Nomination
+Allocation Behavior
+Letter of Credit Draw Down
+Letter of Credit Draw Down Line
+Budget Amendment Type
+Gift Purpose Type
+Ad Hoc Payment Line
+Asset Long Term Depreciation (Derived)
+Capital Project Transaction
+Quicklink Item
+NSF Code
+Revenue Category Hierarchy
+Investment Asset Class
+Investment Domain
+Composite Grouping
+Fair Value Measurement
+Manager Type
+Investment Type
+Geographic
+Market Cap Type
+Investment Subtype
+Grant Hierarchy
+Facilities And Administration Revenue Allocation Profile
+Solution Author
+Requisition Line Distribution
+Hierarchic
+Object Class Rate Grouping (Derived)
+Basis Limit
+Change Job
+Adjustment For Participation Timeline
+Adjustment For Bonus Participation Timeline
+Adjustment For Stock Participation Timeline
+Adjustment For Merit Participation Timeline
+Headcount Plan Version (Do Not Use)
+Pay Cycle Type
+Headcount Plan Structure (Do Not Use)
+Custom Label
+Period Salary Plan
+Salary Period Plan Assignment Snapshot
+Compensation Period
+Change Job
+Form I-9 Version
+Customer Invoice Summary Line
+T4A
+Transaction
+Investment Pool Transaction Line
+Prospect Status
+Accrual Line Abstract
+Capital Project Transaction Type
+Service
+Service Collection Resource
+Service Operation
+Service Resource
+Service Representation (All)
+Investment Pool Transfer Line
+Investment Pool Payout Rate
+Investment Pool Transfer
+Payee Type
+Tax Authority Form Type
+Recruiting Event
+Leave Family
+Talent Pool Membership
+Notification Type Configuration
+Payroll Payee Estimated Annual Lump Sum
+Review COBRA Eligibility
+Succession Pool
+Successor Employer
+Company Relationship Type
+Payroll Payee NI
+Transaction Type
+Project Spend Line
+Unit Selection Method
+Application Limit Override
+Payroll Limit Override
+COBRA Participant
+Worker Custom Data Snapshot
+Period Activity
+Period Activity Category
+Period Activity Unit
+Period Activity Task
+Payee Tax Code
+Withholding Order Type
+Spend Category Hierarchy
+Asset Source
+Feedback Requested
+Revenue Recognition Schedule Controlling Transaction
+Headcount Plan Period (Do Not Use)
+Role Usage (Metadata)
+Income Code for 1042-S
+Derived Succession Pool Candidate Note Drilldown
+Passport and Visa Identifier Event
+Former Worker
+Fund Hierarchy
+Program Hierarchy
+Industry Code
+Accumulated Depreciation Detail
+Business Unit Hierarchy
+Fund Type
+Gift Hierarchy
+Industry Code Type
+Hierarchy Structure
+Hierarchy Structure Level
+Hierarchy Structure Enabled
+Hierarchy Structure Constraint
+Retiree Organization
+Feedback Response
+Sensitive Data Group
+Work Schedule Block (Old Version)
+Customer Invoice Line Application
+Ad Hoc Payment Group Reporting
+Location Hierarchy
+Feedback Question
+Period Schedule
+Worker Custom Data Snapshot for Absence-Payroll
+Period Activity Assignment
+Period Activity Payment
+Compensation Payment
+Job Posting Details
+Non Discretionary Scorecard Details Derived
+Fund Restriction
+Spend Category or Hierarchy Display Option
+Flat Taggable Aggregation Dimension
+Period Schedule Usage
+T4A Summary DI
+Feedback Response from Request
+Period Activity Assignment Event
+IRS 1099 Category
+Payroll Result Line Wrapper For Drilldown
+Investment Pool Proration Rate to Balancing Worktag Reportable (Derived)
+Custom Validation
+Installment Line Abstract
+Communication Usage Behavior Tenanted
+Investment Pool Payout
+Bank Routing Rule
+Bank Routing Rule Line
+Plan Source
+Succession Pool Candidate
+Assign Costing Allocation Task
+Custom Validation Rule Classification
+Accounting Worktag
+Investment Pool Payout Income Distribution
+Investment Pool Payout Administrative Fee Income Distribution
+Gift Payout
+Tax Authority
+Period Activity Assignment Version
+Is People Manager
+Is Manager
+Cash Sale Line
+OMS Test Metadata
+Period Activity Eligibility Entry
+Project Labor Cost Summary Group
+Customer Invoice Line
+Award Period
+Feature Toggle
+Investment Pool Payout Criteria
+Related Person Relationship Behavior
+Fiscal Time Interval
+Post Job Event
+Update Job Posting Event
+Award Proposal Submission Type
+Return Line
+Asset Pooling Rule
+Asset Rule
+Award Historical Cumulative Line
+Academic Affiliate
+Dynamic Allowed Action Override
+Referral Relationship
+Report Group
+Reassign Event
+ROE Prior Period History
+Prepaid Spend Amortization Installment Line
+Intermediary Bank Account
+Social Benefits Locality
+Award Proposal Lifecycle Status
+Time Unit for Annualization
+Match Exception Reason
+Match Override Reason
+Supplier Accounts Match Status
+Referral Target
+Job Applications, Prospects and Referrals
+Student
+Stage
+Program of Study
+Test Result
+Talent Taggable
+Statutory Compensation Employee Statement Event
+Integration ESB Invocation (Abstract)
+Revaluation Result
+Excludable
+Exclusion Type
+Security Group Type
+Supplier Change
+Supplier Change Abstract
+Recruit Role Type
+Candidate Experience
+Recruiting Stage (Workday Owned)
+Promotion Adjustment
+Payroll Payee Student Loan
+Supplier Change Info Lite
+Supplier History
+Educational Interest
+Academic Appointee
+Revaluation Result Line
+Revaluation Rule
+Hierarchy
+Return
+Return to Supplier Line Distribution
+Return Reason
+Admissions Counselor
+Pay Group Selection
+Supplier Link Commodity Code Mapping
+Pay Group Automatic Assignment Rule
+Employee Contract Category
+Financial Plan
+Student Recruiting Campaign Assignment
+Compensation Event
+Loan
+Former Worker Attachment
+Payroll Regular Pay Day
+Recruiting Assessment Event
+Costing Override Attachment
+Workers' Compensation Carrier
+Milestone Detail
+Student Recruiting Event In Progress
+Student Recruiting Cycle
+Academic Curricular Division
+Foreign Currency Invoice Line Application Detail for Revenue Recognition
+Educational Institution
+District
+Student Recruitment
+Academic Level
+Job Posting Site
+Assign Employee Collective Agreement Event
+Wellness Base
+Educational Credential
+Program Type
+Type
+Concentrations
+Program of Study Type
+Grades Offered
+Level
+Abstract Procurement Year End Request
+Procurement Document Type
+Phone Device Type Metadata
+Integration Template
+Supplier List Entry
+General Educational Interest
+Loan Investor Type
+Loan Referral Type
+Entry Type
+Global Setup Data Mapping
+External or Internal Candidate
+Travel Booking Record
+Travel Booking File
+Statistic Behavior Type
+Payroll Taggable
+Academic Period Abstract
+Has Academic Unit
+Has Academic Period
+Named Professorship
+Booking Status
+Travel Record Type
+Calculated Field Function
+Student Recruiting Event Type
+Award Payable Abstract
+Facilities And Administration Costable
+Time Off Plan Balance Component
+Award Revenue Recognizable
+Candidate Resume
+Candidate Education
+Talent Matrix Placement Review Rating
+Candidate Audited Actions
+Procurement Document Mass Action
+Single Legal Entity
+Budget Year End Process Type
+OMS Test SubCategory
+Report Filter Test 3
+Logical Text Sort Test
+Logical Numeric Sort Test
+OMS Test Derived
+Derived OMS Test Category Refernce
+Business Object Category
+Named Professorship Event
+Supplier Invoice Spend Type
+Employee Severance Worksheet
+Employee Severance Package Component
+Employee Severance Package Service Component
+Employee Severance Package Pay Component
+Severance Package Component Type
+RTI FPS
+Questionnaire Configuration Type (Workday Owned)
+Integration Map
+Lookup Table
+Student (Derived)
+Mime Type
+Compensation Assignment Proposal
+Student Recruiting Event
+RTI
+Costing Allocation Event Package
+Engagement Criteria
+Abstract Authentication Type
+ARRCO-AGIRC Rubric Value
+Pôle Emploi Rubric Value
+URSSAF Rubric Value
+Educational Institution Attendance
+Student Engagement
+Student Engagement Plan
+Collective Agreement Factor Option
+Has Engagement Record
+Recruiting Source Type
+Assessment Status
+Statistic (Private)
+Match Status
+Collective Agreement Factor
+Pool Member
+Workfeed Category
+Student Recruiting Event Location
+Health Worker Type
+Safety Incident File
+Time Frame
+Service Center Representative Status Change
+Recruiting Assessment
+ACA Measurement Period Worker History
+Ad Hoc Location
+E-Verify Overdue Reason
+Payroll Compliance Update
+Recruiting Disposition
+Advanced Lookup Table Column (All)
+Questionnaire
+Question Item
+Question Multiple Choice Answer
+Named Professorship Status
+Prospect Type
+Override Rate Calculation Criteria
+Educational Credential Type
+Inherent Permission
+Question Type
+Student Prospect Type
+External Job Posting Site
+Personal Information Collection
+Personal Information Collector
+Personal Information Collection Field
+Degree
+Disciplinary Action Reason Category
+Self-Identification of Disability Status
+Interview Detail
+Third Party
+Interview Feedback Rating
+Recruiting Status
+Unit of Time for Procurement
+Student Recruiting Campaign Data
+Question Setup Snapshot
+Student Recruiting Campaign
+Question Tag
+Payroll Payee Tax Report
+Student Message
+Student Engagement Item
+Engagement Item Type
+External Site Social Media Link
+Emergency Contact Event
+Person Data
+External Association
+External Site Social Media Type
+Derived Report Parameter
+Engagement Criteria Type
+Questionnaire Response Context
+Questionnaire Response
+Questionnaire Answer
+Questionnaire Distributor
+Educational Institution District ID
+Prompt Data Type
+Financial Entry Type
+Educational Institution ID Scheme
+Award Task
+Award Task Type
+Job Runtime
+Award Task Type Group
+Amend Form I-9 Event
+Requisition Type
+Notification Categorizable
+External Association Status
+Average Daily Balance Line
+Notification Email Setting
+Staging Event Target Status
+Educational Taxonomy Scheme
+Educational Taxonomy Code
+Search Service Definition
+Work Schedule Assignment Event
+Social Network Meta Type
+Supply and Demand Analytics Template (Do Not Use)
+Supply and Demand Analysis Snapshot
+Committee Definition
+Academic Level Configuration
+Student Recruiting Campaign Type
+Search Service
+Background Check Package
+Average Daily Balance Header
+Student Tag
+Succession Pool Candidate Note
+Extracurricular Activity
+Audit Form I-9 Event
+Student Tag Category
+Candidate Merge Record
+Admissions Counselor Type
+Student Recruiting Event Engagement Record
+Academic Date Range Abstract
+Academic Year
+Student Recruiting Event Engagement Registration Record
+Extracurricular Activity Category
+Analytic Metric Values
+Form I-9 Audit Line (Derived)
+Questionnaire Response Status
+Student Recruiting Event Embedded BI Data
+Committee Membership Service
+Inventory Transaction
+Committee Membership Type
+Committee Member
+Payroll Payee Regular Taxable Wages Override
+Inventory Transaction Type
+Asset Location or Location Hierarchy
+Project Task Resource
+Employee Probation Period
+Committee Membership Service Snapshot
+Committee Classification
+What's New Item
+Calibration Flag
+Committee Type
+Academic Date Range
+Work Relationship Type
+Work Schedule Assignment
+Educational Institution Carnegie Classification
+Educational Institution Operational Status
+Employee Probation Period Type
+What's New Feature
+Setup Effort
+Job Application Event
+Recruiting External Account User
+Source Detail
+Check Print Layout Abstract
+Academic Date Range Type
+Purchase Order Prepaid Amortization Schedule
+Educational Institution Religious Orientation
+Revenue Recognition Schedule Template
+Customer Contract Line
+Feedback Template
+Taggable by Aggregation Dimension
+Feedback Template Type
+Academic Configuration Option
+Designation
+Structured Dimension
+Sponsoring Organization
+Friends and Family
+Student Proxy Type
+Student Recruiting Note (Do Not Use)
+Student Note Topic (abstract) (Do Not Use)
+Representative
+Has Academic Contact
+Payroll Accounting Adjustment Event
+Payroll Accounting Adjustment Period Line
+Student Proxy Relationship (Abstract)
+Metric Trend
+Metric Status
+Activity Stream Item Relatable
+NCI Calculation Detail (Derived)
+Inventory Event
+Owner Company
+Event Attachment
+Ownership Details for Reporting
+Disability Form Text
+Update Disability Entry
+Activity Streamable
+RTI Report Run Instance
+Payroll Payee Tax Report Run Instance
+PHI Task Score
+Photo Change Event
+Employee Probation Period Event
+Payroll Payee Tax Report Type
+Recruiting Saved Search Question Item
+Student Grading Scheme
+Device Type
+Engagement Record
+Grading Basis
+Competency Class
+Proficiency Rating Scale
+Abstract Review Rating
+Competency Default Snapshot
+Competency Band
+Competency Band Snapshot
+Course Subject
+Event Attachment Category
+Course Definition
+Committee Snapshot
+Evaluation Definition
+Candidate
+Asset Cost Adjustment Reason
+Job Classification Mapping
+Committee Membership Service Event
+Service Order Line
+Charge Type
+Request for Quote
+Request for Quote Line
+Abstract Request for Quote Bid Requirement
+Student Evaluation
+Grade
+Position Restrictions Custom Data Snapshot
+Abstract Request for Quote Participant
+Request for Quote Bid Requirement Classification
+Request for Quote Bid Requirement Type
+Request for Quote Line Type
+Request for Quote Type
+Evaluation Type
+Reason for Taking Course
+Rating Category
+Student Evaluation Comment
+Student Evaluation Rating
+Student Prospect Record
+Student Charge
+Student Institutional Financial Account
+Request for Quote Line Distribution
+Course Section Definition
+Spend Category Usage
+Specialty
+Subspecialty
+Specialty Achievement
+Committee Membership Target
+Specialty Type
+Student Charge Item
+Signon
+Unidentified Signon
+Student Prospect Data Load
+Signon Type
+SAML Identity Provider
+Metric
+Metric Set
+Student Recruiting Event Event
+Self-Identification of Disability Event
+Student External Item
+External Engagement Item Send Event
+Student Application
+Request for Quote Approval BI Data
+Recruiting Assessment Test Result
+Assessment Test
+Learning Outcome
+Request for Quote Review BI Data
+Pay Component (Combined) DI
+Student Cost Item
+Request Worker for Project BI Data
+Award
+Unit of Measure Set
+Request Worker for Resource Plan Event
+Contract Type Rubric Value
+Public Policy Rubric Value
+Termination Reason Rubric Value
+Financial Aid Cost Category
+Charge Classification
+Appointment Specialty
+Request for Quote Response
+Request for Quote Response Line
+Engagement Record Action
+Disability Self-Identification Notification
+Equity Pickup Result
+ACA Measurement Period
+Payslip Aggregation DI
+Self-Identification of Disability Status Snapshot
+Financials Document Type
+Staging Event
+Student Recruiting Event Cancel Event
+Course Tag
+Course Tag Category
+Request for Quote Response Approval BI Data
+DSN Submission
+DSN Run Instance
+Request for Quote Response Review BI Data
+Get Additional Manager Evaluation Event Embedded BI Data
+Student Cost Item Abstract
+Education Test (All)
+Activity Offering Status
+Standard Meeting Pattern
+Education Test Result Data Load
+ISIR File
+Federal Verification Tracking Flag
+Federal Verification Status
+Financial Aid ISIR Electronic Transaction Indicator Flag
+Financial Aid ISIR Data Source and Type Code
+Abstract Request for Quote Bid Response
+Project Status
+Instructor
+Application Review Status
+Student Applicant Type Category
+Student Application Requirement Status
+Data Used by Financial Aid Processes
+Alternate Item Identifier
+Global Name Interface
+Item Identifier Type
+Course Equivalency Group
+Payroll Compliance Update Source
+Catalog of Federal Domestic Assistance
+Instructional Format
+Academic Period Type
+Equivalency Usage
+Statutory Compensation Statement Event
+Marketing Activity Definition
+Marketing Type
+Student Payment for Charges
+Statutory Compensation Statement Type
+Special Condition
+Special Condition Type
+Business Document Attachment
+Project Role
+Request for Quote Award
+Request for Quote Award Line
+Request for Quote Award Line Distribution
+Retention Risk Factor
+Request for Quote Award Approval BI Data
+Equity Pickup Result Line
+Contract Rate Sheet
+Inventory Location Attributes
+Request for Quote Award Review BI Data
+Inventory Site Summary
+Financial Aid Program Duration Unit
+Financial Aid Special Program Indicator
+Financial Aid Term Type
+Financial Aid Program Credential Level
+Learning Mode
+Has Engagement Criteria
+Committee Meeting Agenda
+Agenda Item
+Academic Period Collection Abstract
+One-Time Payment Plan Event For Offer
+Committee Meeting Agenda Item Type
+Committee Meeting Status
+Committee Meeting Type
+Postal Code Validation
+VPS Page (All)
+Analytic Metric Value Validation
+Veteran Status
+Assign Establishment Event
+Student Document Type
+Student Document Type Category
+Financial Aid Award Year
+Compensation Benchmark Composite
+Compensation Benchmark
+Compensation Benchmark Amount
+Compensation Benchmark Composite Category
+Compensation Benchmark Percentile
+Compensation Review Award
+Request for Quote Award Type
+Related Object
+Student Program of Study Record
+Student Document
+Contract Rate
+Project Rate Category Member
+Project Billing Rate Sheet
+Course
+Academic Record
+Student Application Payment Status
+Budget Fringe Rate Table
+Establishment
+Student External Transcript
+Transcript Academic Level
+Student External Transcript Type
+Staging Event Target
+Education Test Section (All)
+Remit-To Supplier Connection
+Course Ownership Allocation
+VPS Site (All)
+Establishment Legal Entity
+Academic Period Division Configuration
+Charge Rate Structure Type
+Compensation Plan Assignment Snapshot Derived
+Compensation Basis Allocation Group Definition
+Academic Period Usage
+Academic Period Weight
+Project Billing Rate
+Country Phone Code
+Engagement Item Usage
+Time Tracking Application Batch
+Move to New Manager Event
+Usage-Based Transaction
+Student External Transcript Course
+Student Goal Measurement
+Retention Risk Key Metric
+Time Tracking History Action
+Schedule Block
+Student Application Decision Published Status
+Student Application Interview Rating
+Student Admissions Assessment Rating
+Admission Decision
+Work Schedule Calendar Event
+Student Goal Measurement (Derived)
+Affordable Care Act Worker Hours And Wages
+Student Application Interview
+Establishment Legal Entity Type
+Beneficiary Event
+Student Application Assessment
+ISIR Transaction
+Time Off Reason
+Mass Operation Type (Workday Owned)
+State Exempt Reason
+Organization Calibration Event
+End Collective Agreement Assignment Event
+Student Application Pre-Evaluation Event
+Student Application Requirement Assignment
+Student Creation History
+Student Recruitment Creation History
+Relative Name
+Historical Contact Information
+Application Grouping
+Student Application Source
+Graduation or Equivalency
+Requisition Sourcing Event
+Student Application Recommender
+Escheatment Item
+Association to Applicant
+Recruitable Certification
+Recruitable Language
+Student External Transcript Data Load
+Inventory Fulfillment Abstract
+Inventory Fulfillment Line Abstract
+Uploaded Document
+Student Application Requirement
+Student Award
+Activity Offering
+Student Award (Derived)
+Eligibility
+Dynamic Resource Pool
+Offer Embedded BI Data
+Offer
+Application Pool
+Inventory Stock Request
+Form I-9 Event
+Financial Aid Dependency Status
+Financial Aid Grade Level in College
+Financial Aid High School Diploma or Equivalent
+ISIR Parent Marital Status
+Financial Aid Tax Return Filing Status
+Financial Aid Type of Prior Year Tax Form Used
+Student Award Item
+Object Class
+Veteran Benefits Eligibility
+Student Application Admission Response
+Load Status
+Worktag
+Instructional Site Data
+Mass Student Application Decision Update
+Loan Fee
+Student Award Federal Program ID
+Student Award Type
+Student Award Status
+Student Award Source
+Student Award Need Method
+Student Award IPEDS Mapping
+Student Course Section Cluster
+Line of Business
+Channel
+Shift
+Employee Loan #
+Waived Meal/Break
+Cash Flow Code
+Market Segment
+Claim Type
+Marriott Hotels JBS
+Financial Institution
+Scheduled Assessment
+Delivery Mode
+Assessment Type
+Engagement Category
+IRS Request Flag
+ISIR Address Only Change Flag
+Course Component
+Other Unit Type Value
+ISIR IRS Display Flag
+ISIR Response
+Withholding Order Worktag
+External Committee Member
+IRS Data Field Flag
+ISIR EFC Change Flag
+Award Personnel Line
+Orientation Offering
+Other Unit Type
+Inventory Adjustment Reason
+Worktag Type Configuration
+Base Value Change
+Base Value Translations
+ISIR Student Marital Status
+ISIR Name or SSN Change Flag
+ISIR Source of Correction
+ISIR Special Circumstance Flag
+Financial Aid Citizenship Status
+Student Activity
+Orientation
+Study Abroad Offering
+Tax Declaration
+Activity Behavior
+ISIR Processed Record Type
+ISIR Calculated Tax Status by CPS
+Course Section
+Asset Intercompany Transfer In
+Requisition Sourcing Event Line
+Allocated Assignments Display Derived
+Other Unit Type
+E-Verify Eligibility Statement Code
+Tax Type
+Award Personnel Line (Derived)
+Professional Affiliation Reference
+ISIR EFC Type
+Origination
+Honorarium Type
+Restricted By Value
+Release Level
+Abstract Tax Rate Application
+Payment Tax Rate Application
+New Skill
+ISIR Electronic Federal School Code Indicator
+ISIR NSLDS Match Flag
+ISIR NSLDS Post Screening Reason Code
+ISIR Secondary DHS Match Flag
+ISIR Selective Service Flag
+ISIR SSA Citizenship Flag
+ISIR SSN Match Flag
+ISIR VA Match Flag
+OMS Test Securing Entity
+Legal Global Person Name Snapshot
+Meeting Day Pattern
+Picking List
+ISIR DHS Match Flag
+DSN
+Operational Transaction Type
+Part Time Pension Rubric Value
+DSN Status
+System Monitor Task Profile (Derived)
+Education Test Section Result
+Omission Code
+Abstract VPS Endpoint Config
+Abstract Customer Invoice Document Accounting Allocation
+Student Printed Item
+Printed Engagement Item Assignment
+Job Requisition Custom Data Snapshot
+Resignation Event
+Application Action Item Assignment
+Engagement Action Item Impact
+ISIR Reject Reason Code
+Recruiting Agency
+Recruiting Agency User
+Tax Declaration Definition
+Tax Declaration Definition Category
+Participant Control Event
+Participant Detail Event
+Activity Offering Component
+Day of the Week
+Common Origination and Disbursement Status
+Package Result Status
+Student Anticipated Disbursement
+Inventory Shipment
+Job History Industry
+Withholding Order Override Completion Criteria
+SSP (GBR) DI
+Target Benchmark Input Line
+Asset Share
+NSLDS Transaction
+NSLDS Grant
+NSLDS Loan
+NSLDS Pell Grant
+NSLDS Limit Flag
+NSLDS Overpayment Flag
+1095-C
+Inventory Stock Request Transaction Type
+Inventory Ship List Line
+Student Course Registration
+Student Course Registration Record
+Offer/Employment Agreement
+Historical Settlement Bank Accounts
+Historical Alternate Names
+Complete Form I-9 Section 3 Event
+Business Entity Contact Info Change Event
+Supplier Alternate Name Change Event
+Supplier Settlement Bank Account Change Event
+Payroll Retro Run Detail
+ACA Report Form Box (Month Based)
+ACA Report Form Box (Dependent Month Based)
+Student Cost
+Student Eligibility Rule Old
+Self-Identification of Veteran Status Event
+US Veteran Status
+Remit-To Connection Snapshot
+Remit-To Supplier Connection Event Data
+ACA Report Form Box (Month Based-Boolean)
+ACA Report Form Box (Month Based-Numeric)
+School Code Housing Plan
+Student Residency Status
+1094-C
+ACA Report Form Box (Generic)
+Student Award Group
+Student Award Group Line
+Student Allowable Action
+External Student Site
+Outline Structure (All)
+Resource Forecast Line Allocation
+Registration Waitlist Availability Event
+Report Output Column
+Financial Aid School Code
+Load Status Rule
+Award Lifecycle Status
+Compensation Review Participation Organization Details
+Tax Declaration Line
+Tax Declaration Component
+Session Type
+US Protected Veteran Status Type
+Billing Schedule Template
+Budget Check Status
+Learning Course
+Resident Detail
+Registration Appointment
+Academic Calendar
+Academic Year Period Order
+Integration Event (Abstract)
+Metric Entity
+Payroll ID
+End Employment Event
+Class Standing Rule
+Class Standing Rule Set
+Class Standing Definition
+Skill Profile
+Skill Profile Category
+Cash Advance Repayment
+Request Payroll Loan Event
+Supplier Event
+Resource Forecast
+Resource Scheduling
+Bank Statement Format
+Inventory Stock Request Origin
+Entry Method
+Payroll Result Absence Plan DI
+Lease Type
+Student External Transcript Course Record
+Educational Institution Course Designation
+Student External Transcript Course Record Level
+Educational Institution Course Academic Area
+Educational Institution Course
+Generate Document
+Student Preliminary Award
+Inventory Cost Adjustment Event
+Student Prospect Source
+Talent Statement
+Student External Credential Type
+Integration Attachment
+Student External Credential Assignment
+Expense Item Attribute Type
+Cash Advance Payment
+Offer Status
+Engagement Action Item Waiver Reason
+Budget Checkable
+Analytic Metric Key
+Work Schedule Calendar
+Day Breaker Divider
+Collaboration Node
+Admissions Assessment Evaluation
+Notification Event Representation
+Worksheet Notification Event Representation
+Learning Enrollment
+Printed Engagement Item Printing Run
+Dunning Letter Printing Run
+Request Translation Event
+UI Test - Inline Edit Sub
+At Risk Enumerated
+Product Feature
+Test Case
+Project Budget Source
+Derived URL
+Registration Record Status
+Goal Target And Actual Detail
+eSignature Document Signing URL
+Review Document Step Configuration
+Class Standing Definition Category
+Student Payment Source
+Financial Aid Package Line
+OX Lookup
+Accounting Worktag Aggregation Dimension
+Fiscal Limit
+Fiscal Limit Item
+Payroll Accounting Reporting Transaction
+Inventory Return Order
+Inventory Return Line
+Plan Period
+Participant State
+Business Process Generated Document
+Pre-Hire Probation Period Details Event
+Pre-Hire Probation Period Unit
+Engagement Action Item Assignable
+Engagement Action Item Completion Criteria New
+Engagement Action Item Type
+Recipient Type
+Student Printed Item Print Layout
+Student Applicant Data Load
+Audit Entry Attribute
+Named Professorship Embedded BI Data
+Load Status Rule Set
+VPS Authentication Type (All)
+Feedback Badge
+Period Activity Rate Matrix
+Par Location
+Inventory Par Count
+Award Reason
+Concurrent Job Status
+RL-2
+Payroll Year End Form Detail Reporting Code
+Offer Statuses for Job Application
+Email Analytic Event
+Financial Plan Generator Profile
+Student Payment Item
+Student Finance Payment Receipt Type
+Student Payment Precedence Group (Metadata)
+Student Prospect Data Load Event
+Student Data Load Abstract
+Unsubscribed Email
+Service Version
+Abstract Field Representation Content
+Representation Content (All)
+Facet Query Parameter
+Field Query Parameter
+Integration Worktag Mapping
+Integration Worktag Mapping Detail
+Registration Event
+System User Representation
+Module Touchpoint Analysis Line
+Module Touchpoint Design Consideration
+Module Touchpoint Consequences Analysis Rating
+Module Touchpoint Impact Analysis Rating
+Module Touchpoint Primary Decision Owner
+Student Sponsor Contract
+Student Sponsor Contract Line
+eSignature Integration Type
+Subaward Abstract
+Used for
+Student Prospect Stage History
+Student History Item
+Student History Item Action
+Student History Item Category
+Student History Item Source
+Student Payment for Charges Type
+Email Event Type
+Workday Product
+Report Executable
+External Account Request
+Compensation Review Node Drilldown Derived
+Subject to FFATA
+Account Posting Rule Condition Value
+Student Aid
+VPS Data Provider
+Student Conditional Assignment Line
+Is SAM Registered
+Escheatment Item Event
+Recruiting Agency Candidate Event
+Abstract Retainable Line
+Abstract Retainable Document
+Student Grade Update Event
+Report Limits Synthetic Large
+Committee Meeting Action Item
+Program Completion Honor or Award Assignment
+Student Refund Payment
+Calibration Participation Detail
+Risk Evaluation
+Personal Information Field
+Candidate Communication
+P60
+Complete Federal Tax Elections Event
+Complete State Tax Election Event
+Retention Release Line
+Usage Billing Rate
+Billing Rate Rule Break
+Par Count Lines
+Supplier Contact Info Change Event
+Supplier Change Event
+Budget Amendment
+Metric Calculation
+Composite Entry
+Composite Calculated Column (All)
+Par Count Option
+Replenishment Option
+Inventory Count Sheet Line Detail
+Inventory Count Sheet
+Additional Evaluation
+Spend Authorization Mass Close Request Line
+Distribution List - Old
+Delivery Type Abstract
+Collective Agreement Classification Factors
+Student Course Material
+Request for Quote Participant List
+Project Standard Cost Rate Sheet
+Project Unnamed Resource Standard Cost Rate Detail
+Bank Statement Custom Code Set
+Credit Card Transaction Type
+Abstract Spend Authorization Year End Request
+Remittance Document
+Project Resource Requirement Parameter
+Plan Worksheet Line
+Plan Worksheet
+Plan Worksheet Line Amount for Pivotable Dimension
+PulsePoint Incident
+PulsePoint City
+PulsePoint County
+PulsePoint Postal Code
+PulsePoint State
+PulsePoint Dispatch Status
+PulsePoint Alarm Level
+PulsePoint Agency
+PulsePoint Incident Unit
+PulsePoint Incident Call Type
+Dunning Letter Printing Run Group
+Academic Period Classification
+Time Off Entry/Absence Input DI
+Channel Service Definition (All)
+Committee Invitation
+Invite Committee Candidate Event
+Student Registration
+External Articulated Registration
+Spend Authorization Mass Close
+OMS Test Pivot Sheet
+OMS Test Pivot Row
+OMS Test Pivot Child
+Program Completion Honor or Award
+ACA Transmission
+Content File
+Payroll Compliance Update Type
+Payroll Tax Data Driver Interface

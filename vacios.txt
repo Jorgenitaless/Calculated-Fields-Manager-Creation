@@ -22,3 +22,50 @@ Abstract Parameter
 Scheduled Installment
 Worker Skill Event
 Accounting Worktag and Aggregation Dimension
+Worker Accomplishment Event
+Employee Contract Event
+Worker Calibration Event
+Job Application
+Supplier Invoice Line Abstract
+Worker Talent Review Event
+Ad Hoc Payment Line
+Change Job
+Prospect Status
+Passport and Visa Identifier Event
+Compensation Payment
+Period Activity Assignment Event
+Accounting Worktag
+Statutory Compensation Employee Statement Event
+Compensation Event
+Assign Employee Collective Agreement Event
+Procurement Document Mass Action
+Mime Type
+Costing Allocation Event Package
+Override Rate Calculation Criteria
+Amend Form I-9 Event
+Work Schedule Assignment Event
+Audit Form I-9 Event
+Payroll Accounting Adjustment Event
+Photo Change Event
+Committee Membership Service Event
+Self-Identification of Disability Event
+Request Worker for Resource Plan Event
+Request for Quote Award Review BI Data
+One-Time Payment Plan Event For Offer
+Assign Establishment Event
+Beneficiary Event
+End Collective Agreement Assignment Event
+Requisition Sourcing Event
+Offer
+Form I-9 Event
+Resignation Event
+Offer/Employment Agreement
+Complete Form I-9 Section 3 Event
+Self-Identification of Veteran Status Event
+End Employment Event
+Request Payroll Loan Event
+Pre-Hire Probation Period Details Event
+Account Posting Rule Condition Value
+Complete Federal Tax Elections Event
+Budget Amendment
+Additional Evaluation
