@@ -15,4 +15,4 @@ plt.show()
 #ft.program(G)
 print(list(G.nodes))
 '''
-print(nx.shortest_path(G, source='Dependent', target = 'Account Posting Rule Dimension'))
+print(nx.shortest_path(G, source='Employee Contract Status'))

@@ -46,11 +46,12 @@ def search(tarea, driver, action, nombre):
 def close(driver, action):
     try:
         close = WebDriverWait(driver, 30).until(
-            EC.visibility_of_element_located((By.XPATH, "//span[@class= 'css-9gpxd9']"))
+            EC.visibility_of_element_located((By.XPATH, "//button[@data-automation-id= 'searchInputClearTextIcon']"))
         )
     except(TimeoutException):
         close = driver.find_element(By.XPATH, "//span[@class= 'css-9gpxd9']")
-    action.move_to_element(close).click(on_element = close)
+        
+    action.click(on_element = close)
     action.perform() 
 
 def guardarRBO(driver, classBO, bo, action):
