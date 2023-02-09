@@ -2830,3 +2830,421 @@ ACA Transmission
 Content File
 Payroll Compliance Update Type
 Payroll Tax Data Driver Interface
+Question Score
+Replenishment Sourcing Line
+Inventory Count Sheet Line
+Abstract Budget Check Line
+Attribute Format Mask
+Customer Contract Line for Scenario
+Bank Statement Balance Type (All)
+Bank Statement Transaction Type (All)
+Historical Academic Record
+Transcript Line
+Historical Course Registration
+Cost of Attendance
+Financial Aid Package
+Learning Content
+Employment Agreement
+Document Attachment
+Revenue Recognition Installment Line for Scenario
+Revenue Allocation Scenario Contract Set
+Transcript Record
+Transcript Period Line
+Historical Student Academic Period Record
+Fair Value Price List
+Sales Item Fair Value Price Rule
+RL-2 Summary DI
+Quebec Year End Form
+Inventory Return Order Type
+Parent Notification Type
+Payroll Advance Event
+External 1095-C Recipient
+Expense Item Attribute
+Bank Statement Balance Type
+Bank Statement Transaction Type
+Project Resource
+Investment Pool Payout Group
+Range Band Content
+Campaign
+Location Attribute
+3rd Party X509 Key Pair
+Requisition Worktags Template
+Requisition Header Splits Default
+Ledger Account Summary History
+Approval Level
+Student Application Admission Recommendation
+Publication Award and Activity Achievement
+Compensation Calculation Context
+Recruiting Agency Fee Type
+Dunning Level Group
+Dunning Level
+Mass Award and Activity Event
+Dynamic Student Cohort (DO NOT USE)
+Custom List Value
+Intraday Bank Statement
+Intraday Bank Statement Balance
+Intraday Bank Statement Line
+Inventory Par Location Line
+Par Location Bin
+Student Waiver Item
+Typical Attendance Pattern
+Attendance Pattern Details
+Pending Student Refund
+Internal Service Provider
+Internal Service Delivery Line Distribution
+Internal Service Delivery
+Internal Service Delivery Line
+Internal Service Delivery Line Split
+Tracking ID
+Cohort Category
+Item Inventory Attributes
+Replenishment Type
+Learning Lesson
+Student Charge Document
+Inventory Location Quantity
+Purchase Item Unit of Measure
+Student Charge Adjustment
+Inventory Stock Request Line
+Report Background Process Runtime
+Internal Service Delivery Approval BI Data
+Leave Type Security Segment
+Inventory Picking List Line
+Enrollment Access and Grading Rule Set
+Enrollment Access Course Owner Line
+Item Lot
+Student Competency Manual Assignment
+Enrollment Unit Limit Rule Set
+Document Generation Configuration
+Absence Case Event
+Succession Strategy
+Program Area
+Tax Rule for Items
+Item Tax Rule Line
+Tax Rule Type
+Revenue Category or Hierarchy
+Student Waiver
+Student Packaging Strategy
+Document Generation Configuration Related
+Inventory Stock Request Type
+Disbursement Schedule
+Disbursement Schedule Line
+Succession Plan Member
+Conversion Usage Metrics
+EMS Property Defaulter
+Student Recruiting Event Follow Up Item Container
+Engagement Communication Usage Type Order
+Student Engagement Item Container
+Student Immigration Data
+Optional Practical Training
+Publication Achievement
+Metrics Environment
+Internal Catalog
+Abstract Procurement Catalog
+Internal Service Delivery Review BI Data
+Project Budget Calculation Line
+Accrual Amount
+Payroll Tax Withholding Form Data
+Payroll Payee City
+Project Worker Standard Cost Rate Detail
+Receivable Contract Installment Line
+Contract Rate (Derived)
+Has Institution Academic Unit
+Period Close Activity Group
+Commission Plan
+Calculated Plan
+Program Area Type
+Billing Rate Application
+Outline Expansion Hierarchy (All)
+Credit Card Transaction File
+Payment Return Addenda
+Payment Return Type
+Charge Due Date Rule
+Supplier Invoice Request
+Supplier Invoice Request Line
+Supplier Invoice Request Line Split
+Supplier Invoice Request Line Distribution
+Applicant Home
+Restricted Requirement Group
+Student Eligibility Rule
+Matchable
+Spend Restriction
+EMS Resource Pool
+Campaign Event
+Campaign Category (All)
+Campaign Type
+Payroll Accounting Adjustment
+Abstract Fringe Benefit Actual
+Numeric Rating
+Original Packaged File
+Package Directory
+Packaged Content
+Content
+Video Content
+Education Test
+Skill Level
+Student Securing Entity
+Resource Forecast Line
+Media Tracking
+Packaged Content Tracking
+Media Registration
+Funding Source
+Award Group
+Enumerated Property Override Representation
+EMS Representation
+EMS Relationship Representation
+Gift Classification
+Job Posting Anchor
+Background Future Process (All)
+Task Behavior
+Project Period
+Complete Employee Awards BI Data
+Rating Framework Detail
+Social Rating Detail
+Project Budget Worksheet Source
+DSN Submission Event
+Control Period Types (mixed)
+Learning Unit Type
+Multi Course Template Snapshot
+Digital Course Snapshot
+Report Data Source Parallelization Test
+Directory Property
+Supplier Invoice Request Approval BI Data
+Inventory Print Layout Abstract
+Referral Event
+Partitionable by Company
+Supplier Invoice Request Review BI Data
+Student Finance Reporting Transaction
+Form I-9 Preparer Translator
+Payment Return Statement
+Award Spend Transaction Line
+Tax Items Group
+Academic Requirement
+Anticipated Payment Display Rule
+Connect Campaign Step
+Campaign Item Type
+Notification Channel Group
+Item Lot Abstract
+Medicare Information Event
+Endorse Candidate
+Practical Learning
+Practical Learning Offering
+Disbursement Run
+Disbursement Schedule Rule
+Disbursement Schedule Rule Line
+Student Disbursement Payment Adjustment
+Has External Site Social Media Links
+Abstract Business Asset and Asset Share
+Headcount Plan Event
+Academic Unit Policy Rule Set
+Payroll Payee Tax Location Mapping
+Processing Type
+Financial Aid Period Record
+Engagement Action Item Assignment Anchor
+Inventory Item Line for Put-Away Event
+Student Accomplishment
+Abstract Funding Source
+Customer Deposit for Payable Document
+Abstract Spend Line
+Payroll Tax Authority Form
+Standard Alias
+Alias Enabled
+EMS ZooKeeper Property Entry
+Cart Line Extrinsic Values
+Calendar Container Entry (Derived Interface)
+Engagement Action Item Assignment
+Object Migration Request
+Endorsement
+x509 Public Key
+Onboarding Setup Event
+Integration System Contact
+Pay Run Group Selection
+OMS Test DA Advisor Offloaded IDM
+Country Tax Rule Line
+Tax Rule for Country
+Tax Status
+Tax Rule Exception Group
+VAT or GST Group
+Historical Student
+Payroll Tax Year (Workday Owned)
+Pattern Schedule Event
+One-Time Payment Plan Event
+Development Item Status
+Ad Hoc Project Transaction
+Student Course Event
+Student Audience
+Professional Profile Attachment
+Payroll Commitment Result Period
+Question Display Option
+Survey
+W-2PR
+Payroll Payee Tax Report Detail
+Document Content
+Dashboard
+Transcript Order
+Student Employment Eligibility Event
+Action Item
+Payroll Commitment Result
+Payroll Commitment Target
+Custom Validation Result
+Audience Type
+Job Requisition Interview Session
+Funding Source Reclassification Line
+Operational Transaction or Accounting Journal
+Funding Source Rule
+Student Historical Transaction
+Student Aggregate Award
+Compensation Review Bonus Payment Audit
+Compensation Review Audit
+Compensation Review Event Action
+Student Hold (All)
+Student Course Fee Value
+External Disability Self-Identification Record
+Prompt Set (All)
+Academic Plan Item
+Student External Site Tab Type
+Meeting Pattern Abstract
+Compensation Review Merit Award Audit
+Questionnaire Distributor Status
+Payroll Year End Form for Canada
+Plan Generator Profile (Do Not Use)
+Headcount Plan Generator Profile
+Mentorship
+Mentorship Event
+Close Mentorship Reason
+Compensation Review Stock Plan Award Audit
+Talent Scorecard Generation
+N Box Cell
+Advanced Ship Notice
+Advanced Ship Notice Line
+Student Course Special Topic
+Course Material Course Assignment
+Course Material Section Assignment
+Compensation Review Talent Audit
+Academic Standing Rule
+Academic Standing Rule Set
+Grade Requirement Eligibility Rule
+Student Recruitment Merge Details
+Goods Delivery Abstract
+Goods Delivery Run
+Purchase Order Acknowledgement
+PO Acknowledgement Line
+Payroll Commitment Status
+Student Hold Assignment
+One-Time Payment Plan Schedule
+One-Time Payment Plan Category
+Funding Source Reclassification Status
+Line Tax Rate Application
+Tax Rate
+Integration Tag
+Purchase Order Issue Event
+Validate Worktag Representation (Derived)
+Worktag Type Configuration Set
+Worktag Anchor Target Representation (Derived)
+Constraint Value
+Constraint Values Representation (Derived)
+Constraint Storage
+Direct Debit Mandate
+UsersMe Authorize User
+UsersMe Authorize Secured Item
+PulsePoint Determinant Code
+Customer Tenant
+Wage Theft Notice Event Interface
+Employment Agreement Embedded BI Data
+Lesson
+Blended Course
+Instructor Led Lesson
+Learning Topic
+Enrollable Course Behaviour
+Learning Course Event
+Learning Lesson Event
+Add Enrollment Event
+Educational Institution Rule Snapshot
+Mass Drop
+Salary Over the Cap Type
+Academic Requirement for Student
+Student Interim Grade
+Customer Billable Document
+Mobile Phone Carrier
+Period Activity Pay Embedded BI Data
+Business Documents Related to Goods Delivery
+Interview Session
+External Supplier Request
+UK Employer Reference
+EFC Duration Rule Set (Do Not Use)
+EFC Duration Rule
+Technical Design Document
+Compensation Plan Reporting Interface
+Learning Unit
+Course Lesson
+Workbook
+Funding Source Reclassification Job Run
+Transcript Program of Study Line
+Historical Program of Study Record
+Program of Study GPA
+Student Fee Group
+Supplier Category
+Give Feedback Requested Event
+Student Grouping
+Student Recruiting Event Registration Record
+Notice Period Target
+Creditor Identifier
+Business Entity Tax Status
+Transaction Tax Status
+Withholding Tax Status
+Tax Status Change
+Tax ID Change
+Payroll Tax Location Mapping
+Reconciliation State
+Customer Category
+Learning Grade
+Order Fulfillment Transaction
+Connect Itemable
+Message Template
+Campaign Record
+Connect Subscriber
+Saved Search
+Progressive Rate Tier
+Goods Delivery
+Goods Delivery Line
+Retro Entry
+Derived Report Parameter With Default Value and Order
+Student Packaging Strategy Packaging Priority Line
+Student Packaging Priority Order
+Accounting Adjustment
+Contract Line Renewal
+Direct Debit Mandate Sequence Type
+Goods Delivery Run Line
+Accounting Adjustment Event
+Class Usage Tenant Metric
+Accounting Category
+Tenanted Payroll Worktag
+Intercompany Affiliate
+Asset Impairment Reason
+Audit Entry Relationship
+Travel Profile
+Deferred Cost Installment
+Deferred Cost Installment Line
+Mentorship Event Type Enumeration
+RTI FPS Submission Event
+External Supplier Site
+Direct Debit Mandate Pre-notifications Printing Run
+Reference Letter Event
+Toggle JIRA
+Compensation Review with Pool Contribution Launch Step Drilldown Derived
+Compensation Review with Pool Contribution Launch Step Holdback Value Drilldown Derived
+Compensation Review with Pool Contribution Launch Step Distributed Value Drilldown Derived
+ASN Line Lot Serial information
+Academic Unit Policy Inheritable
+Student Engagement Container Type
+Dataset
+Funding Source Reclassification Event
+Learning Enrollment Event
+Team Potential Assessment Event
+Anchor Worktag and Target Worktag Types Representation (Derived)
+Derived Time Off Event
+Coordinated Time Off Entry
+Absence Table Tier Time Off Entry
+Reference Letter
+Location Customer Account Number Detail
+Tracking Status
+Media Context

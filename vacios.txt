@@ -69,3 +69,83 @@ Account Posting Rule Condition Value
 Complete Federal Tax Elections Event
 Budget Amendment
 Additional Evaluation
+Payroll Advance Event
+Internal Service Provider
+Absence Case Event
+Campaign Category (All)
+Numeric Rating
+Original Packaged File
+Package Directory
+Packaged Content
+Content
+Video Content
+Student Securing Entity
+Media Registration
+Enumerated Property Override Representation
+EMS Representation
+EMS Relationship Representation
+Background Future Process (All)
+Task Behavior
+Project Period
+Rating Framework Detail
+Project Budget Worksheet Source
+Control Period Types (mixed)
+Learning Unit Type
+Report Data Source Parallelization Test
+Medicare Information Event
+Has External Site Social Media Links
+Academic Unit Policy Rule Set
+Processing Type
+Financial Aid Period Record
+Payroll Tax Authority Form
+Alias Enabled
+EMS ZooKeeper Property Entry
+Calendar Container Entry (Derived Interface)
+Object Migration Request
+Endorsement
+Onboarding Setup Event
+Pay Run Group Selection
+OMS Test DA Advisor Offloaded IDM
+Tax Status
+One-Time Payment Plan Event
+Student Course Event
+Payroll Commitment Result Period
+Payroll Commitment Result
+Custom Validation Result
+Operational Transaction or Accounting Journal
+Compensation Review Event Action
+Student Hold (All)
+Prompt Set (All)
+Questionnaire Distributor Status
+Mentorship Event
+Talent Scorecard Generation
+N Box Cell
+Goods Delivery Run
+Payroll Commitment Status
+One-Time Payment Plan Category
+Funding Source Reclassification Status
+Worktag Type Configuration Set
+Constraint Value
+Constraint Storage
+Wage Theft Notice Event Interface
+Learning Course Event
+Mobile Phone Carrier
+Business Documents Related to Goods Delivery
+Technical Design Document
+Funding Source Reclassification Job Run
+Give Feedback Requested Event
+Reconciliation State
+Connect Itemable
+Connect Subscriber
+Progressive Rate Tier
+Retro Entry
+Student Packaging Strategy Packaging Priority Line
+Class Usage Tenant Metric
+Mentorship Event Type Enumeration
+Reference Letter Event
+Academic Unit Policy Inheritable
+Student Engagement Container Type
+Learning Enrollment Event
+Derived Time Off Event
+Tracking Status
+Media Context
