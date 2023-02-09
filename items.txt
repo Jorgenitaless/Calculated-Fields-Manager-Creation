@@ -3248,3 +3248,25 @@ Reference Letter
 Location Customer Account Number Detail
 Tracking Status
 Media Context
+Academic Requirement Assignment Override
+Academic Requirement Assignment Course Override
+Consolidated Invoice
+Financial Aid Action Item Assignment
+Muse Interaction
+Muse Element
+Muse Choice
+Muse Action
+Muse Criteria
+Muse Response
+Reconciled Group
+Bounce Classification
+Feedback Type
+Federal Student Aid Program Rule Set
+Account Request
+Review Pet
+Payroll Retro Worker Status
+Tracking Outcome
+Notice Period
+Retention Risk Factor Category
+Accounting Adjustment Line
+Student Disbursement Payment

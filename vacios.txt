@@ -149,3 +149,14 @@ Learning Enrollment Event
 Derived Time Off Event
 Tracking Status
 Media Context
+Academic Requirement Assignment Course Override
+Muse Interaction
+Muse Element
+Muse Choice
+Muse Action
+Muse Criteria
+Account Request
+Payroll Retro Worker Status
+Tracking Outcome
+Retention Risk Factor Category
+Student Disbursement Payment
