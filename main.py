@@ -1,7 +1,6 @@
 import networkx as nx
 import pickle
 import matplotlib.pyplot as plt
-import Functions as ft
 
 
 G = nx.read_gpickle('parts.gpickle')
