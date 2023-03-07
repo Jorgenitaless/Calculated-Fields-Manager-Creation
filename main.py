@@ -15,4 +15,4 @@ plt.show()
 #ft.program(G)
 print(list(G.nodes))
 '''
-print(nx.shortest_path(G, source='Student Registration', target = 'Worker'))
+print(nx.shortest_path(G, source='Worker', target = 'Dependent'))

@@ -3270,3 +3270,7 @@ Notice Period
 Retention Risk Factor Category
 Accounting Adjustment Line
 Student Disbursement Payment
+Social Ratable
+Learning Access Type
+Drive Item
+Folder

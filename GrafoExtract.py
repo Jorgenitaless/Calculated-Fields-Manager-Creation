@@ -56,7 +56,7 @@ while counter != longi:
     ft.start(driver)
     ft.login(driver)
     #Cada 300 termina sesión y vuelve a empezar
-    for objeto in range(300):
+    for objeto in range(2000):
         related.clear()
         #si el objeto no ha sido cargado
         if df.iloc[counter, 0] not in items:
@@ -74,7 +74,7 @@ while counter != longi:
                 excel_files = glob.glob('/Users/claudiasoria/Downloads/*.xlsx')
                 destino = os.getcwd() +'/Excels'
                 for excel in excel_files:
-                    rbos = pd.read_excel(excel, engine="openpyxl", skiprows=[0])
+                    rbos = pd.read_excel(excel, engine="openpyxl")
                     rbos.dropna()
                     related = list(rbos.iloc[1:, 4].dropna())
                     name = os.path.basename(excel)
