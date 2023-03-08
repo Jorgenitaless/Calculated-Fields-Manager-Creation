@@ -246,7 +246,7 @@ img,svg {
 
 .home-header {
     align-content:center;
-    background-image: url("{{ url_for('static', filename='images/bg1.png') }}");
+    background-image: url("../images/bg1.png");
     overflow: hidden;
 }
 
@@ -318,7 +318,7 @@ img,svg {
 }
 @media(min-width: 768px) {
     .form {
-        background-image: url("{{ url_for('static', filename='images/template.png') }}");
+        background-image: url("../images/template.png");
     }
 }
 
@@ -420,7 +420,7 @@ img,svg {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("{{ url_for('static', filename='images/background.png') }}");
+  background-image: url("../images/background.png");
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center center;
@@ -488,7 +488,7 @@ button {
   color: #fff;
   display: flex;
   flex-direction: column;
-  background-image: url("{{ url_for('static', filename='images/4.png') }}");
+  background-image: url("../images/4.png");
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center center;

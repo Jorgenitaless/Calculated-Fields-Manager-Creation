@@ -2,18 +2,16 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Mi Página con Inputs y Botón</title>
+    <title>CF Manager</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/estilos.css') }}">
   </head>
   <body>
     <div id="container">
       <img id="logo" src="{{ url_for('static', filename='images/bnb_logo.png') }}" alt="Logo"> <!-- Cambiar la ruta y el nombre del archivo de tu logo aquí -->
       <h1>Please enter your Business Objects</h1>
-      <form href="{{ url_for('sol') }}" method= "POST"> <!-- Cambiar el nombre de la página de retorno aquí -->
-        <label for="source">Initial Business Object: </label>
+      <form href="{{ url_for('sol') }}" method= "POST"> 
         <input type="text" id="BO" name="source" placeholder="Initial Business Object">
          <br></br>
-        <label for="target">Final Business Object: </label>
         <input type="text" id="RBO" name="target" placeholder="Final Business Object">
         <br></br>
         <button type="submit">Find your way</button>
