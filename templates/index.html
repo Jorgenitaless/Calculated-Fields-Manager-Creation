@@ -38,13 +38,13 @@
 
     <!-- form section -->
     <section class="form__form">
-      <form id="form">
+      <form id="form" href="{{ url_for('sol') }}" method= "POST">
         <div class="row">
           <div class="col">
-            <input type="text" name="target" class="form_control" placeholder="Initial Business Object" required>
+            <input type="text" name="source" class="form_control" placeholder="Initial Business Object" required>
           </div>
           <div class="col">
-            <input type="text" name="source" class="form_control" placeholder="Final Business Object" required>
+            <input type="text" name="target" class="form_control" placeholder="Final Business Object" required>
           </div>
         </div>
         <button type="submit" id="submit-form" class="btn btn-primary">
@@ -61,7 +61,7 @@
     <footer class="footer-container">
          <div class="website">
             <a href="https://www.bnetbuilders.com/" class="site-footer__logo d-block">
-              <img src="{{ url_for('static', filename='images/logoW.png') }}" alt="Footer Logo">
+              <img src="{{url_for('static', filename='images/logoW.png')}}" alt="Footer Logo">
             </a>
           </div>
           <div class="email">
