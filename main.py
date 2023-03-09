@@ -1,17 +1,18 @@
 import networkx as nx
 import pickle
 import matplotlib.pyplot as plt
+import pandas as pd
+import json
+from pandas.io.json import json_normalize 
 
+with open('BNB_Classes_Info.json','r') as f:
+    d = json.loads(f.read())
+    
+df = pd.json_normalize(data = d['Report_Entry'], record_path= 'Report_Fields', meta= ['Business_Object_Name'])
 
-G = nx.read_gpickle('parts.gpickle')
-'''
-pos = nx.spring_layout(G)
-nx.draw(G, with_labels=True)
+data = df.loc[:, ['Business_Object_Name', 'RBO']]
 
-plt.show()
+Graphtype = nx.Graph()
+G = nx.from_pandas_edgelist(data, source='Business_Object_Name', target='RBO', create_using=nx.DiGraph())
+pickle.dump(G, open('parts.gpickle', 'wb'))
 
-
-#ft.program(G)
-print(list(G.nodes))
-'''
-print(nx.shortest_path(G, source='Worker', target = 'Dependent'))
