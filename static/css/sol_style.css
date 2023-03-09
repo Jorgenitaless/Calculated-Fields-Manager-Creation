@@ -158,7 +158,7 @@
     font-family: "Baloo 2";
     font-weight: 600;
     line-height: 1.2;
-    margin-bottom: 1.7143rem;
+    margin-bottom: 1rem;
     margin-top: 0
 }
 
@@ -191,7 +191,7 @@
 }
 
 p {
-    margin-bottom: 1rem;
+    margin-bottom: 0.1rem;
     margin-top: 0
 }
 
@@ -481,6 +481,31 @@ button {
     user-select: none;
     vertical-align: middle;
 }
+
+/*------ TABLE ------*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    color:#1C006A;
+}
+
+p {
+  color:#1C006A;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+p2{
+  margin: 0;
+  padding: 0;
+  color:#1C006A;
+  text-align: center;
+  align-items: center;
+}
+
 
 
 /*------ FOOTER ------*/

@@ -7,6 +7,7 @@ app = Flask(__name__)
 
 
 #G = nx.read_gpickle('parts.gpickle')
+
 # open a file, where you stored the pickled data
 file = open('parts.gpickle', 'rb')
 
