@@ -18,14 +18,19 @@ def start():
     if request.method == 'POST':
         source = request.form.get('source')
         target = request.form.get('target')
-
-        result = nx.shortest_path(G, source=source, target = target)
-
-        return render_template('sol.html', result = result)
-
+        try:
+            result = nx.shortest_path(G, source=source, target = target)
+            return render_template('sol.html', result = result)
+        except (nx.NetworkXNoPath, nx.NodeNotFound) as e:
+            return render_template("Chatgpt.html")
+        
     return render_template("index.html")
 
 
 @app.route('/sol/')
 def sol():
     return render_template('sol.html')
+
+@app.route('/chatgpt/')
+def chatgpt():
+    return render_template('Chatgpt.html')
