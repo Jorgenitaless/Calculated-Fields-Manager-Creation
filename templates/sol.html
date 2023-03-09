@@ -12,7 +12,7 @@
        <div class="header">
           <div class="container">
             <div class="logo">
-              <a href="{{ url_for('index') }}"><img src="https://www.bnetbuilders.com/wp-content/themes/theme/_/img/logo.svg" alt="Logo themeFront" /></a>
+              <a href="{{ url_for('start') }}"><img src="https://www.bnetbuilders.com/wp-content/themes/theme/_/img/logo.svg" alt="Logo themeFront" /></a>
             </div>
           </div>
        </div>
@@ -38,20 +38,22 @@
 
     <!-- path section -->
     <section class="form__form">
-      <form id="form" href="{{ url_for('sol') }}" method= "POST">
+      <div id="result" href="{{ url_for('start') }}" method= "POST">
         <div class="row">
           <h1>
             {{ result }}
           </h1>
         </div>
-        <button type="submit" id="submit-form" class="btn btn-primary">
-          Find another path
-          <svg style="color: #1C006A" xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="currentColor" class="bi bi-arrow-counterclockwise" viewBox="0 0 17 16">
-            <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z" fill="#1C006A"></path>
-            <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z" fill="#1C006A"></path>
-          </svg>
-        </button>
-      </form>
+        <a href="{{ url_for('start') }}" class="site-footer__logo d-block">
+          <button type="submit"  id="submit-form" class="btn btn-primary">
+            Find another path
+            <svg style="color: #1C006A" xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="currentColor" class="bi bi-arrow-counterclockwise" viewBox="0 0 17 16">
+              <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z" fill="#1C006A"></path>
+              <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z" fill="#1C006A"></path>
+            </svg>
+          </button>
+        </a>
+      </div>
     </section>
     <!-- end path section -->
 
