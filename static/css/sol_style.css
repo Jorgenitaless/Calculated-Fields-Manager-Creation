@@ -497,16 +497,38 @@ p {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
 }
-
 p2{
-  margin: 0;
-  padding: 0;
-  color:#1C006A;
-  text-align: center;
-  align-items: center;
+    margin: 0.1 rem;
+    padding: 0.2 rem;
+    color:#1C006A;
+    text-align: center;
+
+  }
+
+/*------ FIELDS ------*/
+.fields {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
+h3{
+    margin: 0.1 rem;
+    padding: 0.2 rem;
+    color:#1C006A;
+}
+h2{
+    margin: 0.1 rem;
+    padding: 0.2 rem;
+    color:#1C006A;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+p2{
+    margin: 0.1 rem;
+    padding: 0.2 rem;
+    color:#1C006A;
 
-
+  }
 
 /*------ FOOTER ------*/
 .footer-container {
@@ -518,7 +540,6 @@ p2{
   background-repeat:   no-repeat;
   background-position: center center;
   bottom: 0;
-  ¡
   padding: 1rem;
   flex-direction: column;
   align-items: left;

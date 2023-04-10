@@ -19,9 +19,21 @@ def start():
     if request.method == 'POST':
         source = request.form.get('source')
         target = request.form.get('target')
+        
+
         try:
             result = nx.shortest_path(G, source=source, target = target)
-            return render_template('sol.html', result = result)
+
+            weights = [0] * (len(result)-1)
+            for i in range(len(result)-1):
+                u = result[i]
+                v = result[i+1]
+                edge_data = G.get_edge_data(u, v)
+                weight = edge_data['Field']
+                weights[i] = [weight]
+            
+            return render_template('sol.html', result = result, weights = weights)
+
         except (nx.NetworkXNoPath, nx.NodeNotFound) as e:
             return render_template("Chatgpt.html")
         

@@ -52,6 +52,7 @@
                   <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z" fill="#1C006A"></path>
                 </svg>
               -->
+
                 <svg style="color: #1C006A" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" fill="#1C006A"></path>
                 </svg>
@@ -74,6 +75,38 @@
     </section>
     <!-- end path section -->
 
+    <!-- fields -->
+    <section class="fields">
+      <div id="js-div" >
+        <h2>RELATED FIELDS <br></h2>
+
+        <script>
+          // Get div from HTML
+          var div = document.getElementById('js-div');
+
+          // Get Arrays
+          var result = JSON.parse('{{ result|tojson|safe }}');
+          var campos = JSON.parse('{{ weights|tojson|safe }}');
+      
+          // Loop through the elements of the result array
+          for (let i = 0; i < result.length -1 ; i++) {
+                var h3 = document.createElement('h3');
+                h3.textContent = result[i] + ' - ' + result[i+1];
+                div.appendChild(h3);
+
+                var p = document.createElement('p2');
+                p.textContent = campos[i];
+                div.appendChild(p);
+
+                var br = document.createElement('br');
+                div.appendChild(br);
+                var br = document.createElement('br');
+                div.appendChild(br);
+
+          }
+        </script>
+      </div>
+    </section>
     <!-- footer -->
     <footer class="footer-container">
          <div class="website">
